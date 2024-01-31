@@ -1,0 +1,1379 @@
+<!doctype html>
+<html lang="en" ng-app="mqs">
+  <head>
+<link rel="preconnect" href="https://www.google-analytics.com" />
+<link rel="dns-prefetch" href="https://www.google-analytics.com" />
+<link rel="preconnect" href="https://www.facebook.com" />
+<link rel="dns-prefetch" href="https://www.facebook.com" />
+<link rel="preconnect" href="https://use.fontawesome.com" />
+<link rel="dns-prefetch" href="https://use.fontawesome.com" />
+<link rel="preconnect" href="https://stats.g.doubleclick.net" />
+<link rel="dns-prefetch" href="https://stats.g.doubleclick.net" />
+<link rel="preconnect" href="https://onesignal.com" />
+<link rel="dns-prefetch" href="https://onesignal.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://dve7rykno93gs.cloudfront.net" />
+<link rel="dns-prefetch" href="https://dve7rykno93gs.cloudfront.net" />
+<link rel="preconnect" href="https://connect.facebook.net" />
+<link rel="dns-prefetch" href="https://connect.facebook.net" />
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+<link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
+<link rel="preconnect" href="https://cdn.datatables.net" />
+<link rel="dns-prefetch" href="https://cdn.datatables.net" />
+    <style>
+        [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+            display: none;
+        }
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q4Z84TFH04"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-Q4Z84TFH04');
+    </script>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+          ga('create', 'UA-55496368-1', 'auto', {'allowLinker': true});
+    	  ga('require', 'linker');
+    	  ga('linker:autoLink', ["3dhomes.meqasa.com","adomcityestate.meqasa.com","afariwaaestates.meqasa.com","anglo-africanrealty.meqasa.com","apexrealty.meqasa.com","arkproperties.meqasa.com","aventuradeveloperslimited.meqasa.com","bellevueestates.meqasa.com","beverlyhomes.meqasa.com","buenavistahomes.meqasa.com","capemayproperties.meqasa.com","cjdevelopment.meqasa.com","cliftonhomes.meqasa.com","cornerstonedevelopments.meqasa.com","cpldevelopersltd.meqasa.com","denyadevelopers.meqasa.com","devtracolimited.meqasa.com","devtracoplus.meqasa.com","dpgrouplimited.meqasa.com","earlbeamrealty.meqasa.com","earlscourtgarden.meqasa.com","emefsestates.meqasa.com","emeraldproperties.meqasa.com","engambelimited.meqasa.com","erispropertiesghana.meqasa.com","fortunecity.meqasa.com","goldenway.meqasa.com","goldkeypropertiesghana.meqasa.com","goldkeypropertieslimited.meqasa.com","greendestiny.meqasa.com","greenopalproperties.meqasa.com","greenparkpropertieslimited.meqasa.com","greensunvillasltd.meqasa.com","gyapansapropertiesghltd.meqasa.com","harveyproperties.meqasa.com","indigohomes.meqasa.com","izzathomesgh.meqasa.com","jbhomes.meqasa.com","jlproperties.meqasa.com","kasstowers.meqasa.com","knasdevelopments.meqasa.com","lakesideestate.meqasa.com","lifestylepropertiesdevelopment.meqasa.com","magnoliarealty.meqasa.com","mayfairestates.meqasa.com","milestoneproperties.meqasa.com","mnophomes.meqasa.com","mobusproperties.meqasa.com","montgomeryresidences.meqasa.com","myronhomes.meqasa.com","orinocoriverlimited.meqasa.com","pelicanconstructionlimited.meqasa.com","pleasantpropertieslimited.meqasa.com","prabongreenfields.meqasa.com","primroseproperties.meqasa.com","propertiesportfolioghana.meqasa.com","purpleparkrealty.meqasa.com","quaorealty.meqasa.com","realhomesghanalimited.meqasa.com","redrowdevelopmentsltd.meqasa.com","regimanuelgrayltd.meqasa.com","rendeavour.meqasa.com","rivoniaghanaltd.meqasa.com","rockhillpropertieslimited.meqasa.com","shandoniaproperties.meqasa.com","signumdevelopment.meqasa.com","squaremilehomes.meqasa.com","swamiindiaghanalimited.meqasa.com","tdcdevelopmentcompanylimited.meqasa.com","tfpropertiesltd.meqasa.com","thegreens.meqasa.com","thorpe-bedulimited.meqasa.com","tobluespropertieslimited.meqasa.com","vaalrealestateghana.meqasa.com","vrapropco.meqasa.com","wayleadcompanyghanaltd.meqasa.com","westernbiconconstruction.meqasa.com","westernworldproperties.meqasa.com","westhillsridgeltd.meqasa.com","whitewallpropertieslimited.meqasa.com","wyncontracting.meqasa.com","zaddingtonproperties.meqasa.com"] );
+          ga('send', 'pageview');
+        </script>
+        
+    <title>Clifton Homes - Developer Profile - meQasa</title>
+    <link rel="icon" href="https://meqasa.com/img/favicon2.ico">
+    <link rel="shortcut icon" href="https://meqasa.com/img/favicon2.ico">
+        <meta name="description" content='Too often home buyers in Accra face the need to compromise when buying a prop...'>
+        <meta name="author" content="Clifton Homes">
+    
+        <link rel="canonical" href="/projects-developed-by-clifton-homes-18929975">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@meqasa">
+        <meta name="twitter:title" content="Clifton Homes's Profile - meQasa">
+        <meta name="twitter:description" content='Too often home buyers in Accra face the need to compromise when buying a prop...'>
+        <meta name="twitter:image" content="https://meqasa.com/uploads/imgs/f74f42fe7d0f176dd49d957bb1cee653">
+        <meta name="twitter:url" content="/projects-developed-by-clifton-homes-18929975">
+    
+        <meta property="og:url" content="/projects-developed-by-clifton-homes-18929975">
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="Clifton Homes's Profile - meQasa">
+        <meta property="og:site_name" content="meQasa">
+        <meta property="og:description" content='Too often home buyers in Accra face the need to compromise when buying a prop...'>
+        <meta property="og:image" content="https://meqasa.com/uploads/imgs/f74f42fe7d0f176dd49d957bb1cee653">
+    
+        <meta property="fb:app_id" content="meqasa">
+    
+        <!-- Add the following three tags inside head. -->
+        <meta itemprop="name" content="Clifton Homes's Profile - meQasa">
+        <meta itemprop="description" content='Too often home buyers in Accra face the need to compromise when buying a prop...'>
+        <meta itemprop="url" content="/projects-developed-by-clifton-homes-18929975">
+        <meta itemprop="image" content="https://meqasa.com/uploads/imgs/f74f42fe7d0f176dd49d957bb1cee653">
+    
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jsSocials/1.5.0/jssocials.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jsSocials/1.5.0/jssocials-theme-flat.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.0/flexslider.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.10.16/af-2.2.2/b-1.5.1/b-colvis-1.5.1/b-flash-1.5.1/b-html5-1.5.1/b-print-1.5.1/cr-1.4.1/fc-3.2.4/fh-3.1.3/r-2.2.1/rg-1.0.2/rr-1.2.3/sc-1.4.3/datatables.css">
+    <link rel="stylesheet" href="https://meqasa.com/css/plugins/intlTelInput.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-fileinput/4.4.7/css/fileinput.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-loading-bar/0.9.0/loading-bar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-toastr/2.1.1/angular-toastr.css">
+    
+    
+    <link rel="stylesheet" href="https://meqasa.com/css/styles.css?v=9618148954522143">
+    <style>button, html [type="button"], [type="reset"], [type="submit"]{-webkit-appearance:initial}</style>
+    
+<script>
+ !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+ n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+ n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+ t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+ document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+ fbq('init', '179813976011760');
+ fbq('track', "PageView");
+</script>
+ <noscript><img height="1" width="1" style="display:none"
+ src="https://www.facebook.com/tr?id=179813976011760&ev=PageView&noscript=1"
+ /></noscript>
+  </head>
+  <body ng-controller="DeveloperController as vm">
+    <header>
+        <div class="text-white bg-primary" id="top-bar" style="font-size: 12px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="list-inline my-1">
+                            <li class="px-2 list-inline-item text-white">
+                                <a href="tel:+233506866060" class="text-white font-weight-bold border-accent ">
+                                 Contact Us: <span class="text-accent"><i class="fas fa-phone"></i></span> +233 506 866 060</a>
+                            </li>
+                            <li class="pr-2 list-inline-item">
+                                <a href="mailto:info@meqasa.com" class="text-white font-weight-bold border-accent">
+                                    <span class="text-accent"><i class="fas fa-envelope"></i></span> info@meqasa.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="list-inline my-1 text-right">
+    
+                                <li class="pr-2 list-inline-item border-text border border-left-0 border-top-0 border-bottom-0">
+                                    <a href="https://meqasa.com/login" class="text-white font-weight-bold border-text ">Login</a>
+                                </li>
+                                <li class="pr-2 list-inline-item border-text border border-left-0 border-top-0 border-bottom-0">
+                                    <a href="https://meqasa.com/sign-up" class="text-white font-weight-bold border-text ">Sign Up</a>
+                                </li>
+                                <li class="pr-2 list-inline-item border-text border border-left-0 border-top-0 border-bottom-0">
+                                    <a href="https://meqasa.com/developer-dashboard/units/add" class="px-3 py-1 bg-accent text-white font-weight-bold border-text  border-right-0">List Property</a>
+                                </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="py-2 bg-white" id="middle-bar">
+            <div class="container">
+                <div class="row" style="min-height:90px">
+                    <div class="col-md-3 col-sm-12">
+                        <a href="https://meqasa.com/" class="mid-navbar-brand" style="padding: 6px 0px;">
+                           <img src="https://dve7rykno93gs.cloudfront.net/img/meqasa-logo-4-4.png" alt="meQasa Logo" class="img-fluid" style="height: 90px; width: auto;max-width: none;"> 
+                        </a>
+                    </div>
+                    <div class="col-md-9 col-sm-12 text-sm-right">
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light border-top py-0" style="background-color: #f8f8f8;" data-toggle="affix">
+            <div class="container">
+                <a class="navbar-brand d-none" href="https://meqasa.com/" style="width: 40px;">
+                    <img src="https://dve7rykno93gs.cloudfront.net/img/meqasa-logo-0.png" alt="meQasa Logo" class="img-fluid">
+                </a>
+                <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+    
+                    </ul>
+                    <ul class="navbar-nav my-2 my-lg-0 mx-auto">
+                        <li class="nav-item dropdown mr-4">
+                            <a class="nav-link text-dark dropdown-toggle font-weight-bold" href="https://meqasa.com/properties-for-rent-in-ghana" id="navbarDropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                For Rent
+                            </a>
+                            <div class="dropdown-menu rounded-0" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="https://meqasa.com/apartments-for-rent-at-Accra">Apartments For Rent</a>
+                                <a class="dropdown-item" href="https://meqasa.com/houses-for-rent-in-ghana">Houses For Rent</a>
+                                <a class="dropdown-item" href="https://meqasa.com/offices-for-rent-at-Accra">Office Spaces</a>
+                                <a class="dropdown-item" href="https://meqasa.com/rented-properties">Rented Properties</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown mr-4">
+                            <a class="nav-link text-dark dropdown-toggle font-weight-bold" href="https://meqasa.com/properties-for-sale-in-ghana" id="navbarDropdown"  aria-haspopup="true"
+                                aria-expanded="false">
+                                For Sale
+                            </a>
+                            <div class="dropdown-menu rounded-0" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="https://meqasa.com/apartments-for-sale-at-Accra">Apartments For Sale</a>
+                                <a class="dropdown-item" href="https://meqasa.com/houses-for-sale-in-ghana">Houses For Sale</a>
+                                <a class="dropdown-item" href="https://meqasa.com/offices-for-sale-at-Accra">Office Spaces</a>
+                                <a class="dropdown-item" href="https://meqasa.com/sold-properties">Sold Properties</a>
+                            </div>
+                        </li>
+                        <li class="nav-item mr-4">
+                            <a class="nav-link text-dark font-weight-bold" href="https://meqasa.com/real-estate-developments">Developments</a>
+                        </li>
+                        <li class="nav-item mr-4">
+                            <a class="nav-link text-dark font-weight-bold" href="https://meqasa.com/real-estate-agents">Agents</a>
+                        </li>
+                        <li class="nav-item mr-4">
+                            <a class="nav-link text-dark font-weight-bold" href="https://meqasa.com/real-estate-developers">Developers</a>
+                        </li>
+                        <li class="nav-item dropdown mr-4">
+                            <a class="nav-link text-dark dropdown-toggle font-weight-bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                Blog
+                            </a>
+                            <div class="dropdown-menu rounded-0" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="https://blog.meqasa.com/">Blog</a>
+                                <a class="dropdown-item" href="https://blog.meqasa.com/category/press-and-events">Press &amp; Events</a>
+                                <a class="dropdown-item" href="https://blog.meqasa.com/category/real-estate-news">Real Estate News</a>
+                                <a class="dropdown-item" href="https://blog.meqasa.com/category/living-in-neighbourhood-series">Living In ...</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown mr-4">
+                            <a class="nav-link text-dark dropdown-toggle font-weight-bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                Advice
+                            </a>
+                            <div class="dropdown-menu rounded-0" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="https://blog.meqasa.com/category/real-estate-advice-and-tips">Advice</a>
+                                <a class="dropdown-item" href="https://blog.meqasa.com/category/real-estate-advice-and-tips">Real Estate Advice &amp; Tips</a>
+                                <a class="dropdown-item" href="https://meqasa.com/accra-housing-guide">meQasa Accra Housing Guide</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main><style>div[typeof="BreadcrumbList"]{color:white;text-shadow:1px 1px 1px rgb(0,0,0,.8)}div[typeof="BreadcrumbList"] a{color:inherit}</style>
+<div class="profile_cover_top" style="background-image: url(https://meqasa.com/uploads/imgs/f74f42fe7d0f176dd49d957bb1cee653); background-size:cover;padding: 29% 0px 0;position: relative;background-position: center;">
+    <div class="fade-to-black">
+        <div class="container">
+            <div class="row">
+<div class="col-12">
+<div vocab="https://schema.org/" typeof="BreadcrumbList">
+	<span property="itemListElement" typeof="ListItem">
+		<a property="item" typeof="WebPage" href="https://meqasa.com/">
+			<span property="name">Home</span>
+		</a>
+		<meta property="position" content="1">
+	</span> »
+	<span property="itemListElement" typeof="ListItem">
+		<a property="item" typeof="WebPage" href="https://meqasa.com/real-estate-developers">
+			<span property="name">Developers</span>
+		</a>
+		<meta property="position" content="2">
+	</span> »
+</div>
+</div>
+                <div class="ml-3 mb-3">
+                    <img src="https://meqasa.com/uploads/imgs/f752f86705ef4ac685e67ab8f506b2d9" alt="Clifton Homes Logo" style="width:180px" class="img-thumbnail d-block mx-auto rounded-0 img-fluid shadow">
+                </div>
+                <div class="col-md-8">
+                    <h1 style="font-size:1.75rem;text-shadow: 1px 1px 1px rgba(0,0,0,.8);" class="text-white font-weight-bold">Clifton Homes</h3>
+                    <h4 style="text-shadow: 1px 1px 1px rgba(0,0,0,.8);" class="text-white font-weight-bold">
+                        <i class="fas fa-map-marker-alt"></i> Airport Residential</p>
+                    </h4>
+                    <button type="button" class="btn btn-accent rounded-0 mt-2" ng-click="vm.openViewDeveloperNumberModal()">
+                        <i class="fas fa-phone"></i> View Number
+                    </button>
+                    <button type="button" class="btn btn-accent rounded-0 mt-2" ng-click="vm.openContactDeveloperModal()">
+                        <i class="fas fa-envelope"></i> Send Message
+                    </button>
+                    <button type="button" class="btn btn-success rounded-0 mt-2" ng-click="vm.openViewDeveloperNumberModal(1)">
+                        <i class="fa fa-whatsapp"></i> WhatsApp
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <input type="hidden" id="developerid" name="developerid" value="18929975">
+    <input type="hidden" id="vnusername" name="vnusername" value="">
+    <input type="hidden" id="vnuserphone" name="vnuserphone" value="">
+    <input type="hidden" id="vnuseremail" name="vnuseremail" value="">
+
+    <div class="row mt-4">
+        <div class="col-md-8 col-xs-12">
+            
+            <div class="card rounded-0 border-0">
+                <div class="card-body">
+                    <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="active nav-link rounded-0 font-weight-bold" id="developer-units-tab" data-toggle="tab" href="#developer-units"
+                                role="tab" aria-controls="developer-units" aria-selected="true">
+                                 Units
+                                <span class="badge badge-accent">26</span>
+                                <span class="sr-only">26 Units</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link rounded-0 font-weight-bold" id="developer-projects-tab" data-toggle="tab"
+                                href="#developer-projects" role="tab" aria-controls="developer-projects" aria-selected="true">
+                                Projects
+                                <span class="badge badge-accent">5</span>
+                                <span class="sr-only">5 Projects</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content pt-3 mb-4">
+                        <div class="active tab-pane" id="developer-units" role="tabpanel" aria-labelledby="developer-units-tab">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12 mb-3">
+                                    <div class="card rounded-0 position-relative">
+                                
+                                        <a class="text-dark" href="https://meqasa.com/studio-apartment-for-rent-in-shiashie-unit-203">
+                                            <img src="https://meqasa.com//uploads/imgs/7df5efc7563a15a0520499a95be83f72?dim&#x3D;256x190" alt="Serviced Studio Apartment For Rent in Shiashie - Clifton Homes" class="p-2 w-100">
+                                        </a>
+                                
+                                        <h6 class="card-title font-weight-bold px-2">
+                                            <a class="text-dark" href="https://meqasa.com/studio-apartment-for-rent-in-shiashie-unit-203">Serviced Studio Apartment For Rent in Shiashie - Clifton Homes</a>
+                                            <ul class="list-inline font-weight-bold mt-2">
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="1 Bed">
+                                                    <i class="fas fa-bed fa-lg text-accent mr-1"></i>
+                                                    <span>1</span>
+                                                </li>
+                                                 
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="1 Bathroom">
+                                                    <i class="fas fa-bath fa-lg text-accent mr-1"></i>
+                                                    <span>1</span>
+                                                </li>
+                                                                                             </ul>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 mb-3">
+                                    <div class="card rounded-0 position-relative">
+                                
+                                        <a class="text-dark" href="https://meqasa.com/1-bedroom-apartment-for-rent-in-shiashie-unit-205">
+                                            <img src="https://meqasa.com//uploads/imgs/cf150e717db9fd79a3960918208f5ab9?dim&#x3D;256x190" alt="Serviced 1 Bedroom Apartment For Rent in Shiashie - Clifton Homes" class="p-2 w-100">
+                                        </a>
+                                
+                                        <h6 class="card-title font-weight-bold px-2">
+                                            <a class="text-dark" href="https://meqasa.com/1-bedroom-apartment-for-rent-in-shiashie-unit-205">Serviced 1 Bedroom Apartment For Rent in Shiashie - Clifton Homes</a>
+                                            <ul class="list-inline font-weight-bold mt-2">
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="1 Bed">
+                                                    <i class="fas fa-bed fa-lg text-accent mr-1"></i>
+                                                    <span>1</span>
+                                                </li>
+                                                 
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="1 Bathroom">
+                                                    <i class="fas fa-bath fa-lg text-accent mr-1"></i>
+                                                    <span>1</span>
+                                                </li>
+                                                                                             </ul>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 mb-3">
+                                    <div class="card rounded-0 position-relative">
+                                
+                                        <a class="text-dark" href="https://meqasa.com/2-bedroom-apartment-for-rent-in-shiashie-unit-206">
+                                            <img src="https://meqasa.com//uploads/imgs/870b64b1f1fc0fd2bc38e0e40a2572f6?dim&#x3D;256x190" alt="Serviced 2 Bedroom Apartment for Rent in Shiashie - Clifton Homes " class="p-2 w-100">
+                                        </a>
+                                
+                                        <h6 class="card-title font-weight-bold px-2">
+                                            <a class="text-dark" href="https://meqasa.com/2-bedroom-apartment-for-rent-in-shiashie-unit-206">Serviced 2 Bedroom Apartment for Rent in Shiashie - Clifton Homes </a>
+                                            <ul class="list-inline font-weight-bold mt-2">
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="2 Beds">
+                                                    <i class="fas fa-bed fa-lg text-accent mr-1"></i>
+                                                    <span>2</span>
+                                                </li>
+                                                 
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="2 Bathrooms">
+                                                    <i class="fas fa-bath fa-lg text-accent mr-1"></i>
+                                                    <span>2</span>
+                                                </li>
+                                                                                             </ul>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 mb-3">
+                                    <div class="card rounded-0 position-relative">
+                                
+                                        <a class="text-dark" href="https://meqasa.com/2-bedroom-apartment-for-rent-in-shiashie-unit-210">
+                                            <img src="https://meqasa.com//uploads/imgs/8e5b71546b685df2d2e56ed006516890?dim&#x3D;256x190" alt="2 Bedroom Apartment For Rent in Shiashie" class="p-2 w-100">
+                                        </a>
+                                
+                                        <h6 class="card-title font-weight-bold px-2">
+                                            <a class="text-dark" href="https://meqasa.com/2-bedroom-apartment-for-rent-in-shiashie-unit-210">2 Bedroom Apartment For Rent in Shiashie</a>
+                                            <ul class="list-inline font-weight-bold mt-2">
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="2 Beds">
+                                                    <i class="fas fa-bed fa-lg text-accent mr-1"></i>
+                                                    <span>2</span>
+                                                </li>
+                                                 
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="2 Bathrooms">
+                                                    <i class="fas fa-bath fa-lg text-accent mr-1"></i>
+                                                    <span>2</span>
+                                                </li>
+                                                                                             </ul>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 mb-3">
+                                    <div class="card rounded-0 position-relative">
+                                
+                                        <a class="text-dark" href="https://meqasa.com/3-bedroom-apartment-for-rent-in-shiashie-unit-211">
+                                            <img src="https://meqasa.com//uploads/imgs/8b50b12a2f00fe2e8c91fcaaf9706368?dim&#x3D;256x190" alt="3 Bedroom Apartment For Rent in Shiashie" class="p-2 w-100">
+                                        </a>
+                                
+                                        <h6 class="card-title font-weight-bold px-2">
+                                            <a class="text-dark" href="https://meqasa.com/3-bedroom-apartment-for-rent-in-shiashie-unit-211">3 Bedroom Apartment For Rent in Shiashie</a>
+                                            <ul class="list-inline font-weight-bold mt-2">
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="3 Beds">
+                                                    <i class="fas fa-bed fa-lg text-accent mr-1"></i>
+                                                    <span>3</span>
+                                                </li>
+                                                 
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="3 Bathrooms">
+                                                    <i class="fas fa-bath fa-lg text-accent mr-1"></i>
+                                                    <span>3</span>
+                                                </li>
+                                                                                             </ul>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 mb-3">
+                                    <div class="card rounded-0 position-relative">
+                                
+                                        <a class="text-dark" href="https://meqasa.com/3-bedroom-town-house-for-rent-in-east-legon-unit-214">
+                                            <img src="https://meqasa.com//uploads/imgs/9aeb2314737177be5e27bf7f019f48e2?dim&#x3D;256x190" alt="3 Bedroom Town House For Rent in East Legon - Clifton Homes" class="p-2 w-100">
+                                        </a>
+                                
+                                        <h6 class="card-title font-weight-bold px-2">
+                                            <a class="text-dark" href="https://meqasa.com/3-bedroom-town-house-for-rent-in-east-legon-unit-214">3 Bedroom Town House For Rent in East Legon - Clifton Homes</a>
+                                            <ul class="list-inline font-weight-bold mt-2">
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="3 Beds">
+                                                    <i class="fas fa-bed fa-lg text-accent mr-1"></i>
+                                                    <span>3</span>
+                                                </li>
+                                                 
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="2 Bathrooms">
+                                                    <i class="fas fa-bath fa-lg text-accent mr-1"></i>
+                                                    <span>2</span>
+                                                </li>
+                                                                                             </ul>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 mb-3">
+                                    <div class="card rounded-0 position-relative">
+                                
+                                        <a class="text-dark" href="https://meqasa.com/1-bedroom-apartment-for-rent-in-cantonments-unit-215">
+                                            <img src="https://meqasa.com//uploads/imgs/d9749fe4f164ffa5d685436ecab20bc5?dim&#x3D;256x190" alt="1 Bedroom Apartment For Rent in Cantonments" class="p-2 w-100">
+                                        </a>
+                                
+                                        <h6 class="card-title font-weight-bold px-2">
+                                            <a class="text-dark" href="https://meqasa.com/1-bedroom-apartment-for-rent-in-cantonments-unit-215">1 Bedroom Apartment For Rent in Cantonments</a>
+                                            <ul class="list-inline font-weight-bold mt-2">
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="1 Bed">
+                                                    <i class="fas fa-bed fa-lg text-accent mr-1"></i>
+                                                    <span>1</span>
+                                                </li>
+                                                 
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="1 Bathroom">
+                                                    <i class="fas fa-bath fa-lg text-accent mr-1"></i>
+                                                    <span>1</span>
+                                                </li>
+                                                                                             </ul>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 mb-3">
+                                    <div class="card rounded-0 position-relative">
+                                
+                                        <a class="text-dark" href="https://meqasa.com/3-bedroom-apartment-for-rent-in-cantonments-unit-217">
+                                            <img src="https://meqasa.com//uploads/imgs/4f2aceda36c85e51758a221bc9bb0c34?dim&#x3D;256x190" alt="3 Bedroom Apartment For Rent in Cantonments" class="p-2 w-100">
+                                        </a>
+                                
+                                        <h6 class="card-title font-weight-bold px-2">
+                                            <a class="text-dark" href="https://meqasa.com/3-bedroom-apartment-for-rent-in-cantonments-unit-217">3 Bedroom Apartment For Rent in Cantonments</a>
+                                            <ul class="list-inline font-weight-bold mt-2">
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="3 Beds">
+                                                    <i class="fas fa-bed fa-lg text-accent mr-1"></i>
+                                                    <span>3</span>
+                                                </li>
+                                                 
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="3 Bathrooms">
+                                                    <i class="fas fa-bath fa-lg text-accent mr-1"></i>
+                                                    <span>3</span>
+                                                </li>
+                                                                                             </ul>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 mb-3">
+                                    <div class="card rounded-0 position-relative">
+                                
+                                        <a class="text-dark" href="https://meqasa.com/2-bedroom-apartment-for-rent-in-cantonments-unit-221">
+                                            <img src="https://meqasa.com//uploads/imgs/f5cfa51790834af88c3ffb94784cb256?dim&#x3D;256x190" alt="2 Bedroom Apartment For Rent in Cantonments" class="p-2 w-100">
+                                        </a>
+                                
+                                        <h6 class="card-title font-weight-bold px-2">
+                                            <a class="text-dark" href="https://meqasa.com/2-bedroom-apartment-for-rent-in-cantonments-unit-221">2 Bedroom Apartment For Rent in Cantonments</a>
+                                            <ul class="list-inline font-weight-bold mt-2">
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="2 Beds">
+                                                    <i class="fas fa-bed fa-lg text-accent mr-1"></i>
+                                                    <span>2</span>
+                                                </li>
+                                                 
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="2 Bathrooms">
+                                                    <i class="fas fa-bath fa-lg text-accent mr-1"></i>
+                                                    <span>2</span>
+                                                </li>
+                                                                                             </ul>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 mb-3">
+                                    <div class="card rounded-0 position-relative">
+                                
+                                        <a class="text-dark" href="https://meqasa.com/2-bedroom-apartment-for-sale-in-cantonments-unit-549">
+                                            <img src="https://meqasa.com//uploads/imgs/636f307bc6e1e68e3de70896d17a4236?dim&#x3D;256x190" alt="2 Bedroom Apartment For Sale in Cantonments" class="p-2 w-100">
+                                        </a>
+                                
+                                        <h6 class="card-title font-weight-bold px-2">
+                                            <a class="text-dark" href="https://meqasa.com/2-bedroom-apartment-for-sale-in-cantonments-unit-549">2 Bedroom Apartment For Sale in Cantonments</a>
+                                            <ul class="list-inline font-weight-bold mt-2">
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="2 Beds">
+                                                    <i class="fas fa-bed fa-lg text-accent mr-1"></i>
+                                                    <span>2</span>
+                                                </li>
+                                                 
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="2 Bathrooms">
+                                                    <i class="fas fa-bath fa-lg text-accent mr-1"></i>
+                                                    <span>2</span>
+                                                </li>
+                                                                                             </ul>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 mb-3">
+                                    <div class="card rounded-0 position-relative">
+                                
+                                        <a class="text-dark" href="https://meqasa.com/3-bedroom-apartment-for-sale-in-shiashie-unit-559">
+                                            <img src="https://meqasa.com//uploads/imgs/528f314e9b03d00af2c3f3e9158a7ba2?dim&#x3D;256x190" alt="3 Bedroom Apartment For Sale in Shiashie" class="p-2 w-100">
+                                        </a>
+                                
+                                        <h6 class="card-title font-weight-bold px-2">
+                                            <a class="text-dark" href="https://meqasa.com/3-bedroom-apartment-for-sale-in-shiashie-unit-559">3 Bedroom Apartment For Sale in Shiashie</a>
+                                            <ul class="list-inline font-weight-bold mt-2">
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="3 Beds">
+                                                    <i class="fas fa-bed fa-lg text-accent mr-1"></i>
+                                                    <span>3</span>
+                                                </li>
+                                                 
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="3 Bathrooms">
+                                                    <i class="fas fa-bath fa-lg text-accent mr-1"></i>
+                                                    <span>3</span>
+                                                </li>
+                                                                                             </ul>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 mb-3">
+                                    <div class="card rounded-0 position-relative">
+                                
+                                        <a class="text-dark" href="https://meqasa.com/1-bedroom-apartment-for-rent-in-cantonments-unit-906">
+                                            <img src="https://meqasa.com//uploads/imgs/c24551e8865a25af58991220786730cb?dim&#x3D;256x190" alt="Serviced Suites For Rent at Cantonments - Clifton Homes" class="p-2 w-100">
+                                        </a>
+                                
+                                        <h6 class="card-title font-weight-bold px-2">
+                                            <a class="text-dark" href="https://meqasa.com/1-bedroom-apartment-for-rent-in-cantonments-unit-906">Serviced Suites For Rent at Cantonments - Clifton Homes</a>
+                                            <ul class="list-inline font-weight-bold mt-2">
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="1 Bed">
+                                                    <i class="fas fa-bed fa-lg text-accent mr-1"></i>
+                                                    <span>1</span>
+                                                </li>
+                                                 
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="1 Bathroom">
+                                                    <i class="fas fa-bath fa-lg text-accent mr-1"></i>
+                                                    <span>1</span>
+                                                </li>
+                                                                                             </ul>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 mb-3">
+                                    <div class="card rounded-0 position-relative">
+                                
+                                        <a class="text-dark" href="https://meqasa.com/1-bedroom-apartment-for-rent-in-cantonments-unit-907">
+                                            <img src="https://meqasa.com//uploads/imgs/62566f53be0ed00bfae179f48b0e07fe?dim&#x3D;256x190" alt="Serviced 1 Bedroom Apartment For Rent at Cantonments - Clifton Homes" class="p-2 w-100">
+                                        </a>
+                                
+                                        <h6 class="card-title font-weight-bold px-2">
+                                            <a class="text-dark" href="https://meqasa.com/1-bedroom-apartment-for-rent-in-cantonments-unit-907">Serviced 1 Bedroom Apartment For Rent at Cantonments - Clifton Homes</a>
+                                            <ul class="list-inline font-weight-bold mt-2">
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="1 Bed">
+                                                    <i class="fas fa-bed fa-lg text-accent mr-1"></i>
+                                                    <span>1</span>
+                                                </li>
+                                                 
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="1 Bathroom">
+                                                    <i class="fas fa-bath fa-lg text-accent mr-1"></i>
+                                                    <span>1</span>
+                                                </li>
+                                                                                             </ul>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 mb-3">
+                                    <div class="card rounded-0 position-relative">
+                                
+                                        <a class="text-dark" href="https://meqasa.com/1-bedroom-apartment-for-rent-in-cantonments-unit-909">
+                                            <img src="https://meqasa.com//uploads/imgs/c7aaf4024bc6a57bfc75997bf035d058?dim&#x3D;256x190" alt="Serviced 1 Bedroom Duplex for Rent at Cantonments" class="p-2 w-100">
+                                        </a>
+                                
+                                        <h6 class="card-title font-weight-bold px-2">
+                                            <a class="text-dark" href="https://meqasa.com/1-bedroom-apartment-for-rent-in-cantonments-unit-909">Serviced 1 Bedroom Duplex for Rent at Cantonments</a>
+                                            <ul class="list-inline font-weight-bold mt-2">
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="1 Bed">
+                                                    <i class="fas fa-bed fa-lg text-accent mr-1"></i>
+                                                    <span>1</span>
+                                                </li>
+                                                 
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="1 Bathroom">
+                                                    <i class="fas fa-bath fa-lg text-accent mr-1"></i>
+                                                    <span>1</span>
+                                                </li>
+                                                                                             </ul>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 mb-3">
+                                    <div class="card rounded-0 position-relative">
+                                
+                                        <a class="text-dark" href="https://meqasa.com/2-bedroom-apartment-for-rent-in-cantonments-unit-910">
+                                            <img src="https://meqasa.com//uploads/imgs/806f6dbcedeeab32184bf094f74c5add?dim&#x3D;256x190" alt="Serviced 2 Bedroom For Rent at Cantonments" class="p-2 w-100">
+                                        </a>
+                                
+                                        <h6 class="card-title font-weight-bold px-2">
+                                            <a class="text-dark" href="https://meqasa.com/2-bedroom-apartment-for-rent-in-cantonments-unit-910">Serviced 2 Bedroom For Rent at Cantonments</a>
+                                            <ul class="list-inline font-weight-bold mt-2">
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="2 Beds">
+                                                    <i class="fas fa-bed fa-lg text-accent mr-1"></i>
+                                                    <span>2</span>
+                                                </li>
+                                                 
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="2 Bathrooms">
+                                                    <i class="fas fa-bath fa-lg text-accent mr-1"></i>
+                                                    <span>2</span>
+                                                </li>
+                                                                                             </ul>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 mb-3">
+                                    <div class="card rounded-0 position-relative">
+                                
+                                        <a class="text-dark" href="https://meqasa.com/2-bedroom-apartment-for-rent-in-cantonments-unit-911">
+                                            <img src="https://meqasa.com//uploads/imgs/31d4c86227c759414e6658151195e3ff?dim&#x3D;256x190" alt="Serviced 2 Bedroom Duplex For Rent at Cantonments" class="p-2 w-100">
+                                        </a>
+                                
+                                        <h6 class="card-title font-weight-bold px-2">
+                                            <a class="text-dark" href="https://meqasa.com/2-bedroom-apartment-for-rent-in-cantonments-unit-911">Serviced 2 Bedroom Duplex For Rent at Cantonments</a>
+                                            <ul class="list-inline font-weight-bold mt-2">
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="2 Beds">
+                                                    <i class="fas fa-bed fa-lg text-accent mr-1"></i>
+                                                    <span>2</span>
+                                                </li>
+                                                 
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="2 Bathrooms">
+                                                    <i class="fas fa-bath fa-lg text-accent mr-1"></i>
+                                                    <span>2</span>
+                                                </li>
+                                                                                             </ul>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 mb-3">
+                                    <div class="card rounded-0 position-relative">
+                                
+                                        <a class="text-dark" href="https://meqasa.com/3-bedroom-apartment-for-rent-in-cantonments-unit-912">
+                                            <img src="https://meqasa.com//uploads/imgs/0531f2a2ab8986e14120fecf1b687c5b?dim&#x3D;256x190" alt="Serviced 3 Bedroom for Rent at Cantonments" class="p-2 w-100">
+                                        </a>
+                                
+                                        <h6 class="card-title font-weight-bold px-2">
+                                            <a class="text-dark" href="https://meqasa.com/3-bedroom-apartment-for-rent-in-cantonments-unit-912">Serviced 3 Bedroom for Rent at Cantonments</a>
+                                            <ul class="list-inline font-weight-bold mt-2">
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="3 Beds">
+                                                    <i class="fas fa-bed fa-lg text-accent mr-1"></i>
+                                                    <span>3</span>
+                                                </li>
+                                                 
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="3 Bathrooms">
+                                                    <i class="fas fa-bath fa-lg text-accent mr-1"></i>
+                                                    <span>3</span>
+                                                </li>
+                                                                                             </ul>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 mb-3">
+                                    <div class="card rounded-0 position-relative">
+                                
+                                        <a class="text-dark" href="https://meqasa.com/2-bedroom-apartment-for-sale-in-cantonments-unit-917">
+                                            <img src="https://meqasa.com//uploads/imgs/a4746cdb6e11346b129e3fdb1c41d950?dim&#x3D;256x190" alt="2 Bedroom Duplex for Sale at Cantonments" class="p-2 w-100">
+                                        </a>
+                                
+                                        <h6 class="card-title font-weight-bold px-2">
+                                            <a class="text-dark" href="https://meqasa.com/2-bedroom-apartment-for-sale-in-cantonments-unit-917">2 Bedroom Duplex for Sale at Cantonments</a>
+                                            <ul class="list-inline font-weight-bold mt-2">
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="2 Beds">
+                                                    <i class="fas fa-bed fa-lg text-accent mr-1"></i>
+                                                    <span>2</span>
+                                                </li>
+                                                 
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="2 Bathrooms">
+                                                    <i class="fas fa-bath fa-lg text-accent mr-1"></i>
+                                                    <span>2</span>
+                                                </li>
+                                                                                             </ul>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 mb-3">
+                                    <div class="card rounded-0 position-relative">
+                                
+                                        <a class="text-dark" href="https://meqasa.com/3-bedroom-apartment-for-sale-in-cantonments-unit-921">
+                                            <img src="https://meqasa.com//uploads/imgs/b163c33e88c93b240343b3f0a9cca06c?dim&#x3D;256x190" alt="3 Bedroom Apartment for Sale at Cantonments" class="p-2 w-100">
+                                        </a>
+                                
+                                        <h6 class="card-title font-weight-bold px-2">
+                                            <a class="text-dark" href="https://meqasa.com/3-bedroom-apartment-for-sale-in-cantonments-unit-921">3 Bedroom Apartment for Sale at Cantonments</a>
+                                            <ul class="list-inline font-weight-bold mt-2">
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="3 Beds">
+                                                    <i class="fas fa-bed fa-lg text-accent mr-1"></i>
+                                                    <span>3</span>
+                                                </li>
+                                                 
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="3 Bathrooms">
+                                                    <i class="fas fa-bath fa-lg text-accent mr-1"></i>
+                                                    <span>3</span>
+                                                </li>
+                                                                                             </ul>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 mb-3">
+                                    <div class="card rounded-0 position-relative">
+                                
+                                        <a class="text-dark" href="https://meqasa.com/3-bedroom-apartment-for-rent-in-shiashie-/-east-legon-unit-2598">
+                                            <img src="https://meqasa.com//uploads/imgs/d7bc685be9f3b0612444db669194ede4?dim&#x3D;256x190" alt="3 Bedroom Apartment for Rent in Shiashie" class="p-2 w-100">
+                                        </a>
+                                
+                                        <h6 class="card-title font-weight-bold px-2">
+                                            <a class="text-dark" href="https://meqasa.com/3-bedroom-apartment-for-rent-in-shiashie-/-east-legon-unit-2598">3 Bedroom Apartment for Rent in Shiashie</a>
+                                            <ul class="list-inline font-weight-bold mt-2">
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="3 Beds">
+                                                    <i class="fas fa-bed fa-lg text-accent mr-1"></i>
+                                                    <span>3</span>
+                                                </li>
+                                                 
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="2 Bathrooms">
+                                                    <i class="fas fa-bath fa-lg text-accent mr-1"></i>
+                                                    <span>2</span>
+                                                </li>
+                                                                                             </ul>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 mb-3">
+                                    <div class="card rounded-0 position-relative">
+                                
+                                        <a class="text-dark" href="https://meqasa.com/1-bedroom-apartment-for-rent-in-airport-residential-unit-3097">
+                                            <img src="https://meqasa.com//uploads/imgs/2d42830def09472c1a721fe3e94c6d15?dim&#x3D;256x190" alt="Suite for Rent at Airport Residential" class="p-2 w-100">
+                                        </a>
+                                
+                                        <h6 class="card-title font-weight-bold px-2">
+                                            <a class="text-dark" href="https://meqasa.com/1-bedroom-apartment-for-rent-in-airport-residential-unit-3097">Suite for Rent at Airport Residential</a>
+                                            <ul class="list-inline font-weight-bold mt-2">
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="1 Bed">
+                                                    <i class="fas fa-bed fa-lg text-accent mr-1"></i>
+                                                    <span>1</span>
+                                                </li>
+                                                 
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="1 Bathroom">
+                                                    <i class="fas fa-bath fa-lg text-accent mr-1"></i>
+                                                    <span>1</span>
+                                                </li>
+                                                                                             </ul>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 mb-3">
+                                    <div class="card rounded-0 position-relative">
+                                
+                                        <a class="text-dark" href="https://meqasa.com/1-bedroom-apartment-for-rent-in-airport-residential-unit-3098">
+                                            <img src="https://meqasa.com//uploads/imgs/74ab6af7efb5afd25b6df43a28048271?dim&#x3D;256x190" alt="Executive Suite for Rent at Airport Residential" class="p-2 w-100">
+                                        </a>
+                                
+                                        <h6 class="card-title font-weight-bold px-2">
+                                            <a class="text-dark" href="https://meqasa.com/1-bedroom-apartment-for-rent-in-airport-residential-unit-3098">Executive Suite for Rent at Airport Residential</a>
+                                            <ul class="list-inline font-weight-bold mt-2">
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="1 Bed">
+                                                    <i class="fas fa-bed fa-lg text-accent mr-1"></i>
+                                                    <span>1</span>
+                                                </li>
+                                                 
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="1 Bathroom">
+                                                    <i class="fas fa-bath fa-lg text-accent mr-1"></i>
+                                                    <span>1</span>
+                                                </li>
+                                                                                             </ul>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 mb-3">
+                                    <div class="card rounded-0 position-relative">
+                                
+                                        <a class="text-dark" href="https://meqasa.com/1-bedroom-apartment-for-rent-in-airport-residential-unit-3099">
+                                            <img src="https://meqasa.com//uploads/imgs/250f139192f47b9f60920ee9917ddb2d?dim&#x3D;256x190" alt="1 Bedroom for Rent at Airport Residential" class="p-2 w-100">
+                                        </a>
+                                
+                                        <h6 class="card-title font-weight-bold px-2">
+                                            <a class="text-dark" href="https://meqasa.com/1-bedroom-apartment-for-rent-in-airport-residential-unit-3099">1 Bedroom for Rent at Airport Residential</a>
+                                            <ul class="list-inline font-weight-bold mt-2">
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="1 Bed">
+                                                    <i class="fas fa-bed fa-lg text-accent mr-1"></i>
+                                                    <span>1</span>
+                                                </li>
+                                                 
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="2 Bathrooms">
+                                                    <i class="fas fa-bath fa-lg text-accent mr-1"></i>
+                                                    <span>2</span>
+                                                </li>
+                                                                                             </ul>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 mb-3">
+                                    <div class="card rounded-0 position-relative">
+                                
+                                        <a class="text-dark" href="https://meqasa.com/1-bedroom-apartment-for-rent-in-airport-residential-unit-3102">
+                                            <img src="https://meqasa.com//uploads/imgs/f13a386c6d614282a05c18035e973a30?dim&#x3D;256x190" alt="1 Bedroom Duplex for Rent at Airport Residential" class="p-2 w-100">
+                                        </a>
+                                
+                                        <h6 class="card-title font-weight-bold px-2">
+                                            <a class="text-dark" href="https://meqasa.com/1-bedroom-apartment-for-rent-in-airport-residential-unit-3102">1 Bedroom Duplex for Rent at Airport Residential</a>
+                                            <ul class="list-inline font-weight-bold mt-2">
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="1 Bed">
+                                                    <i class="fas fa-bed fa-lg text-accent mr-1"></i>
+                                                    <span>1</span>
+                                                </li>
+                                                 
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="2 Bathrooms">
+                                                    <i class="fas fa-bath fa-lg text-accent mr-1"></i>
+                                                    <span>2</span>
+                                                </li>
+                                                                                             </ul>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 mb-3">
+                                    <div class="card rounded-0 position-relative">
+                                
+                                        <a class="text-dark" href="https://meqasa.com/2-bedroom-apartment-for-rent-in-airport-residential-unit-3103">
+                                            <img src="https://meqasa.com//uploads/imgs/951cac65bcf062af38c8a363ac2c3a9c?dim&#x3D;256x190" alt="2 Bedroom for Rent at Airport Residential" class="p-2 w-100">
+                                        </a>
+                                
+                                        <h6 class="card-title font-weight-bold px-2">
+                                            <a class="text-dark" href="https://meqasa.com/2-bedroom-apartment-for-rent-in-airport-residential-unit-3103">2 Bedroom for Rent at Airport Residential</a>
+                                            <ul class="list-inline font-weight-bold mt-2">
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="2 Beds">
+                                                    <i class="fas fa-bed fa-lg text-accent mr-1"></i>
+                                                    <span>2</span>
+                                                </li>
+                                                 
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="3 Bathrooms">
+                                                    <i class="fas fa-bath fa-lg text-accent mr-1"></i>
+                                                    <span>3</span>
+                                                </li>
+                                                                                             </ul>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 mb-3">
+                                    <div class="card rounded-0 position-relative">
+                                
+                                        <a class="text-dark" href="https://meqasa.com/2-bedroom-apartment-for-rent-in-airport-residential-unit-3104">
+                                            <img src="https://meqasa.com//uploads/imgs/2c4b9079305f24bfabd59c15358562aa?dim&#x3D;256x190" alt="2 Bedroom Duplex for Rent at Airport Residential" class="p-2 w-100">
+                                        </a>
+                                
+                                        <h6 class="card-title font-weight-bold px-2">
+                                            <a class="text-dark" href="https://meqasa.com/2-bedroom-apartment-for-rent-in-airport-residential-unit-3104">2 Bedroom Duplex for Rent at Airport Residential</a>
+                                            <ul class="list-inline font-weight-bold mt-2">
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="2 Beds">
+                                                    <i class="fas fa-bed fa-lg text-accent mr-1"></i>
+                                                    <span>2</span>
+                                                </li>
+                                                 
+                                                <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="3 Bathrooms">
+                                                    <i class="fas fa-bath fa-lg text-accent mr-1"></i>
+                                                    <span>3</span>
+                                                </li>
+                                                                                             </ul>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                            <div class="tab-pane" id="developer-projects" role="tabpanel" aria-labelledby="developer-projects-tab">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12 mb-3">
+                                        <div class="card rounded-0 position-relative">
+                                            <a class="text-dark" href="https://meqasa.com/development-project-shiashie-the-gallery-166">
+                                                <img src="https://meqasa.com//uploads/imgs/8ec0b8a08f5aa8f46c649d05d8beddf0?dim&#x3D;256x190" alt="The Gallery" class="p-2 w-100">
+                                            </a>
+                                            <h6 class="card-title font-weight-bold px-2">
+                                                <a class="text-dark" href="https://meqasa.com/development-project-shiashie-the-gallery-166">The Gallery</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-12 mb-3">
+                                        <div class="card rounded-0 position-relative">
+                                            <a class="text-dark" href="https://meqasa.com/development-project-shiashie-clifton-place-167">
+                                                <img src="https://meqasa.com//uploads/imgs/52350293e8adc8c504b09c518a90e553?dim&#x3D;256x190" alt="Clifton Place" class="p-2 w-100">
+                                            </a>
+                                            <h6 class="card-title font-weight-bold px-2">
+                                                <a class="text-dark" href="https://meqasa.com/development-project-shiashie-clifton-place-167">Clifton Place</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-12 mb-3">
+                                        <div class="card rounded-0 position-relative">
+                                            <a class="text-dark" href="https://meqasa.com/development-project-cantonments-the-residence-168">
+                                                <img src="https://meqasa.com//uploads/imgs/5d4a15be6b6d245a753f2828d89f2137?dim&#x3D;256x190" alt="The Residence" class="p-2 w-100">
+                                            </a>
+                                            <h6 class="card-title font-weight-bold px-2">
+                                                <a class="text-dark" href="https://meqasa.com/development-project-cantonments-the-residence-168">The Residence</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-12 mb-3">
+                                        <div class="card rounded-0 position-relative">
+                                            <a class="text-dark" href="https://meqasa.com/development-project-cantonments-embassy-gardens-223">
+                                                <img src="https://meqasa.com//uploads/imgs/17a293324e910230185717169beb2132?dim&#x3D;256x190" alt="Embassy Gardens" class="p-2 w-100">
+                                            </a>
+                                            <h6 class="card-title font-weight-bold px-2">
+                                                <a class="text-dark" href="https://meqasa.com/development-project-cantonments-embassy-gardens-223">Embassy Gardens</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-12 mb-3">
+                                        <div class="card rounded-0 position-relative">
+                                            <a class="text-dark" href="https://meqasa.com/development-project-airport-residential--the-lennox-307">
+                                                <img src="https://meqasa.com//uploads/imgs/709e8099c1b3fa99409c58ab028b6757?dim&#x3D;256x190" alt="The Lennox" class="p-2 w-100">
+                                            </a>
+                                            <h6 class="card-title font-weight-bold px-2">
+                                                <a class="text-dark" href="https://meqasa.com/development-project-airport-residential--the-lennox-307">The Lennox</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+               
+                    <div class="clearfix">Too often home buyers in Accra face the need to compromise when buying a property, forced by market dynamics and unreliable suppliers to sacrifice either location or quality in order to purchase a property they can afford. <br><br>Our homes present buyers with the opportunity to own a stylish, high-quality home in a central location, at competitive prices. Market leading payment plans (starting from only 10% down payment) make the investment even more affordable. <br><br>This offer also translates to a high yield investment opportunity for buy-to-let investors. <br>We train our teams to care about the details, whether this is in relation to client communications, managing construction costs, or interior fittings and finishing. <br><br>This combination has lead to a track record of sell-out developments, market leading asset growth and rental yields, and an impressive record of repeat buyers and referrals.<br><br></div>
+                    <br>
+                    <div class="mb-4">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a class="" title="Clifton Homes Facebook Page" href="https://facebook.com/CliftonHomesLimited/" target="_blank" rel="nofollow">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                               
+                            <li class="list-inline-item">
+                                <a class="" title="Clifton Homes Instagram Page" href="https://www.instagram.com/cliftonghana/" target="_blank" rel="nofollow">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                             
+                            <li class="list-inline-item">
+                                <a class="" title="Clifton Homes Website" href="http://www.cliftonghana.com/" target="_blank" rel="nofollow">
+                                    <i class="fas fa-globe"></i>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <br>
+            
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-xs-12">
+            <div class="card rounded-0 border-0 mb-4">
+                <div class="card-body text-center">
+                    <h4 class="elem-wrapper-header font-weight-bold">Share</h4>
+                    <div id="share" style="font-size:16px"></div>
+                </div>
+            </div>
+            <div class="card rounded-0 border-0">
+                <div class="card-body">
+                    <h4 class="elem-wrapper-header text-center font-weight-bold">Working Hours</h4>
+                    <table class="table table-bordered table-striped">
+                        <tbody>
+                            <tr class="form-group">
+                                <td>
+                                    Monday
+                                </td>
+                                <td>
+                                     9:00am - 5:30pm 
+                                </td>
+                            </tr>
+                            <tr class="form-group">
+                                <td>
+                                    Tuesday
+                                </td>
+                                <td>
+                                     9:00am - 5:30pm 
+                                </td>
+                            </tr>
+                            <tr class="form-group">
+                                <td>
+                                    Wednesday
+                                </td>
+                                <td>
+                                     9:00am - 5:30pm 
+                                </td>
+                            </tr>
+                            <tr class="form-group">
+                                <td>
+                                    Thursday
+                                </td>
+                                <td>
+                                     9:00am - 5:30pm 
+                                </td>
+                            </tr>
+                            <tr class="form-group">
+                                <td>
+                                    Friday
+                                </td>
+                                <td>
+                                     9:00am - 5:30pm 
+                                </td>
+                            </tr>
+                            <tr class="form-group">
+                                <td>
+                                    Saturday
+                                </td>
+                                <td>
+                                     Closed 
+                                </td>
+                            </tr>
+                            <tr class="form-group">
+                                <td>
+                                    Sunday
+                                </td>
+                                <td>
+                                     Closed 
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="contactDeveloperModal">
+        <div class="modal-dialog" role="document">
+            <form name="sendDeveloperMessageForm" class="modal-content rounded-0 job-form" ng-submit="vm.sendMessage()" novalidate>
+                <div class="modal-header rounded-0">
+                    <h5 class="modal-title text-white">Send Developer a Message</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <p ng-if="vm.emessage" class="text-danger text-center">{{vm.emessage}}</p>
+                        <p ng-if="vm.smessage" class="text-success text-center">{{vm.smessage}}</p>
+                        <p ng-if="vm.sending" class="text-primary text-center">Please Wait. Sending Message ...</p>
+                    </div>
+                    <div class="sendMessageInputs">
+                        <div class="form-group">
+                            <label for="fullNameInput">Full Name</label>
+                            <input type="text" class="form-control rounded-0" id="fullNameInput" aria-describedby="fullNameHelp" placeholder="Full Name"
+                                ng-model="vm.cname" required pattern="[A-Za-z ]{2,}">
+                            <small id="fullNameHelp" class="form-text text-muted">Enter your full name.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="emailInput">Email address</label>
+                            <input type="email" class="form-control rounded-0" id="emailInput" aria-describedby="emailHelp" placeholder="Email" ng-model="vm.cemail"
+                                required>
+                            <small id="emailHelp" class="form-text text-muted">Enter your the email.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="phonenumberInput0">Phone Number</label>
+                            <br>
+                            <input type="tel" class="form-control rounded-0 phonenumber w-100" id="phonenumberInput0" aria-describedby="phonenumberHelp"
+                                placeholder="Phone Number" required>
+                            <small id="phonenumberHelp" class="form-text text-muted">Enter your phone number.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="messageInput">Your Message</label>
+                            <textarea class="form-control rounded-0" id="messageInput" aria-describedby="messageHelp" placeholder="Your Message" rows="5"
+                                ng-model="vm.cmessage" required minlength="2"> </textarea>
+                            <small id="messageHelp" class="form-text text-muted">Enter your message.</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary rounded-0" ng-disabled="sendDeveloperMessageForm.$invalid">Send Message</button>
+                    <!--button type="button" class="btn btn-secondary rounded-0" data-dismiss="modal" ng-disabled="vm.busy">Dismiss</button-->
+                </div>
+<!--a href="https://meqasa.com/fair/" target="_blank"><img style="width:100%" src="https://dve7rykno93gs.cloudfront.net/assets2/images/fair2023msg.jpg" alt="Meqasa Home and property fair August 2023. Projects, Seminars, Free Entry. Register to attend."/></a-->
+            </form>
+        </div>
+    </div>
+    
+    <div class="modal" tabindex="-1" role="dialog" id="getDeveloperNumberModal">
+        <div class="modal-dialog" role="document">
+            <form name="getDeveloperNumberForm" class="modal-content rounded-0 job-form" ng-submit="vm.getNumber()" novalidate>
+                <div class="modal-header rounded-0">
+                    <h5 class="modal-title text-white">Get Developer's Number</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+<p>First submit your contact info once. If you are unable to reach the developer, then they can reach you.</p>
+                    <div>
+                        <p ng-if="vm.emessage" class="text-danger text-center">{{vm.emessage}}</p>
+                        <p ng-if="vm.sending" class="text-primary text-center">Please Wait. Getting Number ...</p>
+                        <p class="text-center developer-number" style="display:none"><a href="tel:{{vm.dphone}}">{{vm.dphone}}</a></p>
+                        <p ng-if="vm.dwhats" class="text-center developer-number"><a class="btn btn-success rounded-0 mt-2" style="width:31%" target="_blank" href="https://wa.me/{{vm.dwhats}}?text=found%20your%20profile%20on%20Meqasa%20{{vm.uurl}}"><i class="fa fa-whatsapp"></i> +{{vm.dwhats}}</a> </p>
+                        <p ng-if="vm.dother" class="text-center developer-number"><a href="tel:{{vm.dother}}">{{vm.dother}}</a></p>
+                    </div>
+                    <div class="getNumberInputs">
+                        <div class="form-group">
+                            <label for="fullNameInput">Full Name</label>
+                            <input type="text" class="form-control rounded-0" id="fullNameInput" aria-describedby="fullNameHelp" placeholder="Full Name"
+                                ng-model="vm.cname" required pattern="[A-Za-z ]{2,}">
+                            <small id="fullNameHelp" class="form-text text-muted">Enter your full name.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="phonenumberInput1">Phone Number</label>
+                            <br>
+                            <input type="tel" class="form-control rounded-0 phonenumber w-100" id="phonenumberInput1" aria-describedby="phonenumberHelp"
+                                placeholder="Phone Number" required>
+                            <small id="phonenumberHelp" class="form-text text-muted">Enter your phone number.</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary rounded-0" ng-disabled="getDeveloperNumberForm.$invalid || vm.busy">Get Number</button>
+                    <!--button type="button" class="btn btn-secondary rounded-0" data-dismiss="modal" ng-disabled="vm.busy">Dismiss</button-->
+                </div>
+<!--a href="https://meqasa.com/fair/" target="_blank"><img style="width:100%" src="https://dve7rykno93gs.cloudfront.net/assets2/images/fair2023msg.jpg" alt="Meqasa Home and property fair August 2023. Projects, Seminars, Free Entry. Register to attend."/></a-->
+            </form>
+        </div>
+    </div>
+</div>
+</main>
+    <footer class="p-2 mt-4" style="background-color: #f8f8f8;">
+        <div class="container">
+            <div class="row">
+                <div class="text-center footer-menu col-md-5">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a href="https://meqasa.com/about-us" class="text-dark">About Us</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://meqasa.com/contact-us" class="text-dark">Contact Us</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://meqasa.com/faq" class="text-dark">FAQs</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://meqasa.com/feedback" class="text-dark">Feedback</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://meqasa.com/accra-housing-guide" class="text-dark">Housing Guide</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://meqasa.com/advertising-options-with-meqasa" class="text-dark">Advertise with Us</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://meqasa.com/terms-of-use" class="text-dark">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="text-center col-md-4">
+                    <a href="https://meqasa.com/" class="text-dark">&copy; 2024 meQasa – Real Estate Marketplace.</a>
+                </div>
+                <div class="social-icons col-md-3 text-center">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a target="_blank" href="http://www.twitter.com/meqasa">
+                                <img src="https://dve7rykno93gs.cloudfront.net/assets2/images/rb2/tw.png" alt="meQasa on Twitter">
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="http://www.linkedin.com/company/meqasa-ltd-meqasa-com-">
+                                <img src="https://dve7rykno93gs.cloudfront.net/assets2/images/rb2/lk.png" alt="meQasa LinkedIn company profile">
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="http://www.facebook.com/meqasa">
+                                <img src="https://dve7rykno93gs.cloudfront.net/assets2/images/rb2/fb.png" alt="meQasa facebook page">
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="http://instagram.com/meqasa_gh">
+                                <img src="https://dve7rykno93gs.cloudfront.net/assets2/images/rb2/inst.png" alt="meQasa on Instagram">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    
+        </div>
+    </footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyARPtKAytp7-Gn6qDzeutG5i_W2pin1Myg&libraries=places"></script>
+    
+    
+    <script>
+        $('body').on('mouseenter mouseleave', '.dropdown', function (e) {
+            var _d = $(e.target).closest('.dropdown'); _d.addClass('show');
+            setTimeout(function () {
+                _d[_d.is(':hover') ? 'addClass' : 'removeClass']('show');
+            }, 300);
+        });
+    /*$('#contactrequests-tab').click(function(){
+    	if($('#contactrequests tbody').text().trim()==''){
+    		$.post('/developer-listofco',{developerid:$('#did'.val())},function(res,stat){
+    			jArr=JSON.parse(res);
+    			for(i in jArr){
+    				$('#contactrequests tbody').append('<tr>...</tr>');
+    			}
+    		});
+    	}
+    });*/
+    
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" type="text/javascript"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" type="text/javascript"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.13/js/v4-shims.js" type="text/javascript"></script>
+    <script>
+        $('[data-toggle="popover"]').popover();
+    </script>
+    
+    
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js" type="text/javascript"></script>
+    <script>
+        var $fotoramaDiv = $('.fotorama').fotorama();
+            // 2. Get the API object.
+            var fotorama = $fotoramaDiv.data('fotorama');
+            $('.fslider div.fotorama__stage__shaft').click(function () {
+                fotorama.requestFullScreen();
+            });
+    </script>
+    
+    
+    <script src="https://meqasa.com/assets4/js/phcc8.js" type="text/javascript"></script>
+    <script>
+        $(".phonenumber").intlTelInput({
+    	    separateDialCode:1,
+                initialCountry: "GH",
+    /*            geoIpLookup: function (callback) {
+                    $.get("https://ipinfo.io", function () { }, "jsonp").always(function (resp) {
+                        var countryCode = (resp && resp.country) ? resp.country : "";
+                        callback(countryCode);
+                    });
+                },*/
+                utilsScript: "https://dve7rykno93gs.cloudfront.net/assets4/js/ccutils5.js" // just for formatting/placeholders etc
+            });
+    	$(".phonenumber").blur(function(){$(this).intlTelInput('setNumber',$(this).val());});
+    </script>
+    
+    
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsSocials/1.5.0/jssocials.min.js" type="text/javascript"></script>
+    <script>
+        $("#share").jsSocials({
+                shareIn: "popup",
+                showLabel: false,
+                showCount: false,
+                shares: ["twitter", "facebook", "googleplus", "linkedin", "pinterest", "whatsapp"]
+            });
+    </script>
+    
+    
+    
+    <script>
+        var map = new google.maps.Map(document.getElementById('mapViewDiv'), {
+            center: { lat: 5.6155396, lng: -0.17681549999997515 },
+            zoom: 16,
+            scrollwheel: false,
+            marker: true
+         });
+    
+        var marker = new google.maps.Marker({
+            position: { lat: 5.6155396, lng: -0.17681549999997515 },
+            title: "34 Senchi Street, Accra, Ghana"
+        });
+    
+        marker.setMap(map);
+    </script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.9/angular.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.9/angular-sanitize.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.9/angular-animate.min.js" type="text/javascript"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-loading-bar/0.9.0/loading-bar.min.js" type="text/javascript"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-toastr/2.1.1/angular-toastr.tpls.min.js" type="text/javascript"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tinymce/4.7.9/tinymce.min.js" type="text/javascript"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-tinymce/0.0.19/tinymce.min.js" type="text/javascript"></script>
+    
+        
+        <script src="https://meqasa.com/js/xyz/meqasa.angular.js?v=9618148954522143"></script>
+        <script src="https://meqasa.com/js/xyz/services/data.min.js?v=9618148954522143"></script>
+    
+        
+        
+        
+        
+    
+    
+    
+    
+    
+    
+    
+        
+    
+        <script src="https://meqasa.com/js/xyz/controllers/developer.min.js?v=9618148954522143" type="text/javascript"></script>
+    
+    
+    
+    
+    
+    
+        
+    
+    
+    <script src="https://meqasa.com/js/xyz/meqasa.com.js?v=9618148954522143" defer></script>
+    
+    <script>if(window.location.hash.indexOf('projects')>-1){document.getElementById('developer-projects-tab').click();}</script>
+    
+    
+  </body>
+</html>

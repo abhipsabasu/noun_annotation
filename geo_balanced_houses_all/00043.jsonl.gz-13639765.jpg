@@ -1,0 +1,2444 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+  
+        <title>Virgin Islands News Online</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Language" content="en" />
+    <meta name="revisit-after" content="3 days"/>
+    <meta name="rating" content="general"/>
+    <!--<meta name="language" content="English"/>-->
+    <meta name="description" content="Latest Virgin Islands (BVI) News on local community, politics, finance/business, culture and sports."/>
+    <meta name="keywords" content="Virgin Islands, BVI, news, online, latest, politics, business, finance, culture, sports, community, education, health, religion, cinema schedule, events, cruise ship schedule, weather, young professionals" />
+    
+    <script type="text/javascript" src="https://www.virginislandsnewsonline.com/assets/third-party/jquery.js"></script>
+    <script type="text/javascript" src="https://www.virginislandsnewsonline.com/assets/third-party/jquery-ui.js"></script>
+    <script type="text/javascript" src="https://www.virginislandsnewsonline.com/assets/third-party/swfobject.js"></script>
+        
+    <script>
+      var site_url = 'https://www.virginislandsnewsonline.com';
+      var lang_code = 'en';
+      var date_format = 'dd/mm/yy';  
+      var url_real = 'https://www.virginislandsnewsonline.com/en/';              
+    </script>
+    
+    <script type="text/javascript" src="https://www.virginislandsnewsonline.com/assets/js/core.js"></script>    
+    
+      
+    <link rel="shortcut icon" href="https://www.virginislandsnewsonline.com/assets/img/favicon.ico" type="image/x-icon" />
+      
+    <link href="https://www.virginislandsnewsonline.com/assets/css/common.css?v=2" rel="stylesheet" type="text/css" />
+    <link href="https://www.virginislandsnewsonline.com/assets/css/panels.css" rel="stylesheet" type="text/css" />
+    
+    <link href="https://www.virginislandsnewsonline.com/assets/css/jquery.jcarousel.css" rel="stylesheet" type="text/css" />
+    <link href="https://www.virginislandsnewsonline.com/assets/jcskin/skin.css" rel="stylesheet" type="text/css" />
+    
+  	<link rel="stylesheet" type="text/css" href="https://www.virginislandsnewsonline.com/assets/third-party/fancybox/jquery.fancybox-1.3.4.css" media="screen" />    
+    
+  	<script type="text/javascript" src="https://www.virginislandsnewsonline.com/assets/third-party/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+  	<script type="text/javascript" src="https://www.virginislandsnewsonline.com/assets/js/front.js?v=2"></script>
+    <script type="text/javascript" src="https://www.virginislandsnewsonline.com/assets/js/jquery.jcarousel.pack.js"></script>
+    <script type="text/javascript" src="https://www.virginislandsnewsonline.com/assets/js/jquery-dateFormat.min.js"></script>
+    <script type="text/javascript" src="https://www.virginislandsnewsonline.com/assets/js/swfobject.js"></script>    
+  
+    <script type="text/javascript">
+    
+        var mycarousel2;
+
+        function mycarousel_initCallback(carousel){
+
+
+        }; 
+
+
+        function trackFlash(category, action, label) {
+                pageTracker._trackEvent(category, action, label);
+        }
+
+
+        /* Ticker settings - 3 messages */
+        function animateNewstick() {
+          $("#newstick_content").animate({
+            left: -5000
+          }, 180000, "linear", function() {
+            $("#newstick_content").css('left', '1000px');
+            animateNewstick();
+          });    
+        }
+
+        $(document).ready(function() {
+
+            $("#nav ul li").parents().each(function() {
+                var p = $(this);
+                var pos = p.css("position");
+
+                // If it's positioned,
+                if(pos == "relative" ||
+                   pos == "absolute" ||
+                   pos == "fixed")
+                {
+                    /*
+                    ** Add the "on-top" class name when the
+                    ** mouse is hovering over it, and remove
+                    ** it when the mouse leaves.
+                    */
+                    p.hover(function() {
+                            $(this).addClass("on-top");
+                        },
+                        function() {
+                            $(this).removeClass("on-top");
+                        });
+                }
+            });
+
+
+            $('#mycarousel').jcarousel({
+              scroll: 1,
+              auto: 5,
+              wrap: 'last',
+              initCallback: mycarousel_initCallback
+            });
+
+
+            $("li", "#nav").mouseover(function(){  
+                $("ul", this).show();
+                //$jq(this).stop().animate({height:'200px'},{queue:false, duration:600, easing: 'easeOutBounce'})  
+            });
+
+            $("li", "#nav").mouseout(function(){
+                $("ul", this).hide();
+                //$jq(this).stop().animate({height:'200px'},{queue:false, duration:600, easing: 'easeOutBounce'})  
+            });
+            $("#nav li ul").hide();
+
+            animateNewstick();
+            
+            $('a.fancybox').fancybox();
+            $('a.fancybox_iframe').fancybox({
+              'type': 'iframe',
+              'width' : 670,
+              'height' : '90%',
+              'autoScale' : false
+            });
+            
+          	$("a[rel=fancybox_gallery]").fancybox({
+          		'transitionIn'		: 'none',
+          		'transitionOut'		: 'none',
+          		'titlePosition' 	: 'over',
+          		'titleFormat'       : function(title, currentArray, currentIndex, currentOpts) {
+          		    return '<span id="fancybox-title-over">' +  (currentIndex + 1) + ' / ' + currentArray.length + ': ' + title + '</span>';
+          		}
+          	});             
+
+        });
+    
+    </script>  
+    
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GYB34MD55H"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GYB34MD55H');
+</script>
+    
+    
+  </head>
+
+  <body>
+  
+    <!--
+    <div class="message">
+      Due to technical difficulties we are unable to update our news site.  We regret the inconvenience caused.
+    </div>
+    -->
+
+    <div class="wrapper">
+    
+      <div id="header">
+      
+        <div id="header_left">
+        
+          <a href="https://www.virginislandsnewsonline.com/en">
+            <img src="https://www.virginislandsnewsonline.com/assets/img/logo.png" alt="Virgin Islands News Online" width="297"/>
+          </a>
+          
+        </div>
+        
+        <div id="header_middle">
+          <div class="ad ad468x60">
+            
+            <!--<a href="http://burkesgarage.com/main/" target="_blank"><img src="https://preview.back2flash.com/tmpb2f/468x60_201009_Burkes.gif" /></a>-->
+            <!--<a href="http://www.thejamaicankitchen.com/">-->
+            <!--</a>-->
+          <a href="http://www.caribbins.com/" target="_blank"><img width=468 height=60 src="https://preview.back2flash.com/tmpb2f/cil_2023-01-03_header.gif" /></a>
+            
+            <span style="font-weight:bold;" id="header_date"></span>|
+            <!--09:48:03-->         
+          </div>
+        </div>
+        
+        <div id="header_right">
+        
+          <div id="links">
+            <img src="https://www.virginislandsnewsonline.com/assets/img/flag_small.gif" style="float:left"/> 
+            <a href="https://www.virginislandsnewsonline.com/en/about-us/contact">Contact</a> 
+            <!--| <a href="/about-us/advertise">How to Advertise</a> <br />-->
+            <div style="padding:5px 0 5px 130px;">
+<!--              <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FVirgin-Islands-News-Online%2F321051286872&amp;send=false&amp;layout=button_count&amp;width=200&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe>-->
+                  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FVirgin-Islands-News-Online%2F180445958712879&amp;send=false&amp;layout=button_count&amp;width=200&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe>
+            </div>            
+          </div>
+          
+          <div id="search">
+            <form role="search" id="searchform" class="filter" rel="https://www.virginislandsnewsonline.com/en/news/">
+              <div>
+                <label>Search for:</label>
+                      <input class="filter_field" type="text" name="filter-keywords" id="filter-keywords" value=""/>
+                    <a href="" class="btn" id="searchsubmit">Search</a>
+              </div>
+            </form>
+          </div>
+                    
+        </div>
+        
+      </div>
+      
+      <div id="nav">
+        
+        <ul>
+          <li class="n">
+            <a href="/en">Home</a>
+          </li>
+          <li class="n">
+            <a href="/en/news">News</a>
+
+            <ul>
+	<li class="cat-item cat-item-15"><a href="/en/news/community/" title="View all posts filed under Community">Community</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="/en/news/crime/" title="View all posts filed under Crime">Crime</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="/en/news/culture/" title="View all posts filed under Culture">Culture</a>
+</li>
+	<li class="cat-item cat-item-14"><a href="/en/news/education/" title="View all posts filed under Education">Education</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="/en/news/business/" title="View all posts filed under Finance/Business">Finance/Business</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="/en/news/health/" title="View all posts filed under Health">Health</a>
+</li>
+	<li class="cat-item cat-item-7274"><a href="/en/news/local-politics/" title="View all posts filed under Local Politics">Local Politics</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="/en/news/religion/" title="View all posts filed under Religion">Religion</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="/en/news/sports/" title="View all posts filed under Sports">Sports</a>
+</li>
+              
+            </ul>
+          </li>
+          <li>
+            <a href="/en/young-professionals">Young Professionals</a>
+          </li>  
+          <li>
+            <a href="/en/news/local-politics">Local Politics</a>
+          </li>
+          <li>
+            <a href="/en/ups-movie-schedule"><span style="color:#ff0000;">UP's Movie Schedule</span></a>
+          </li>
+          <li>
+            <a href="/en/cartoon"><span style="color:#00ff00;">Cartoon</span></a>
+          </li>  
+             
+          <!--       
+          <li>
+            <a href="/en/local-info">Info</a>
+            <ul>
+              <li>
+                <a href="/en/local-info/events">Events</a>
+              </li>          
+              <li>
+                <a href="/en/local-info/cruise-ship-schedule">Cruise Ship Schedule</a>
+              </li>
+              <li>
+                <a href="/en/local-info/weather">Weather</a>
+              </li>                 
+            </ul>            
+          </li>     
+          -->
+          <li>
+            <a href="/en/about-us/classified-ads"><span style="color:#33b5e5;">Classified Ads</span></a>                
+          </li>          
+          <li>
+            <a href="/en/advertise">Ads</a>
+          </li>
+          <li>
+            <a href="/en/about-us">About</a>
+            <ul>
+              <li>
+                <a href="/en/about-us/contact">Contact</a>
+              </li>
+              <li>
+                <a href="/en/about-us/our-team">Our Team</a>
+              </li>   
+              <li>
+                <a href="/en/about-us/links">Links</a>
+              </li>                     
+              <li>
+                <a href="/en/about-us/copyright-notice">Copyright Notice</a>
+              </li>                                          
+            </ul>            
+          </li>        
+        </ul>
+                           
+
+
+        <ul id="island">
+          <li>
+            <span>
+              List News:
+            </span>
+          </li>
+          <li>
+            <a class="nopadding">[by scope]</a>
+            <ul>
+              <li>
+                <a href="/en/news/filter-category/12">Regional</a>
+              </li>
+              <li>
+                <a href="/en/news/filter-category/13">International</a>
+              </li>   
+            </ul>
+          </li>        
+          <li>
+            <a class="nopadding">[by islands]</a>
+            <ul>
+              <li>
+                <a href="/en/news/filter-category/14">Anegada</a>
+              </li>
+              <li>
+                <a href="/en/news/filter-category/15">Jost Van Dyke</a>
+              </li>   
+              <li>
+                <a href="/en/news/filter-category/16">St. Croix</a>
+              </li>                                       
+              <li>
+                <a href="/en/news/filter-category/17">St. John</a>
+              </li>    
+              <li>
+                <a href="/en/news/filter-category/18">St. Thomas</a>
+              </li>  
+              <li>
+                <a href="/en/news/filter-category/19">Tortola</a>
+              </li>  
+              <li>
+                <a href="/en/news/filter-category/20">Virgin Gorda</a>
+              </li>  
+              <li>
+                <a href="/en/news/filter-category/21">Water Island</a>
+              </li>                                                                    
+            </ul>
+          </li>
+          
+        
+          
+        </ul>
+      
+      </div>      
+      
+      <div id="newstick">
+        <div id="newstick_content" style="width:5000px">
+
+          <span style="color:red; font-weight:bold;">
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
+  <b>Got TIPS or BREAKING NEWS?</b> Please call 1-284-442-8000 direct/can also WhatsApp same number  or Email ALL news to:newsvino@outlook.com;</b> </span>
+
+
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
+   <span style="color:blue; font-weight:bold;">ads call 1-284-440-6666</span>
+
+<!--
+<span style="color:blue; font-weight:bold;">
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
+  Live broadcast of Grenada Elections, June 23, 2022 from 5 PM on cbn radio 90.9 FM, cbn tel chan 101 via Flow & CCT network 291.  
+</span>
+-->                    
+        </div>
+      </div>
+    <a class="ad" href="/ads/bfmedical_2022-10-25.gif" target="_blank" ><img src="/ads/bfmedical_2022-10-25.gif"   /></a>
+        <a class="ad" href="/ads/tag_2024-01-25_hp.gif" target="_blank" ><img src="/ads/tag_2024-01-25_hp.gif" width="990" height="100" /></a>
+        <a class="ad" href="https://www.digicelgroup.com/vg/en/switch-to-digicel.html" target="_blank" ><img src="/ads/digicel_2024-01-30_top.gif" width="990" height="100" /></a>
+        <a class="ad" href="https://www.nagico.com/hurricane-season/" target="_blank" ><img src="/ads/nagico_2024-01-06_hp.gif" width="990" height="100" /></a>
+          
+      
+      <div id="home">
+      
+        <div id="home_left">
+            
+          <div id="banner">
+  
+            <ul id="mycarousel" class="jcarousel-skin-virginislandsnewsonline">
+            
+            
+              
+                <li>
+                  <a href="https://www.virginislandsnewsonline.com/en/news/update-sewage-truck-accident-fatalities-are-henderson-legair-kenroy-joseph-" style="float:left; display:block;width:350px;height:270px;overflow:hidden;">
+                    <img src="https://www.virginislandsnewsonline.com/cache/images/350x270_l_Legair.jpg" />
+                  </a>
+                  <div class="text breaking_news"> 
+                    <div class="meta">
+                      <span>
+                        January 30th, 2024                      </span>
+                    </div>
+                    <a href="https://www.virginislandsnewsonline.com/en/news/update-sewage-truck-accident-fatalities-are-henderson-legair-kenroy-joseph-"><h1><span class="">UPDATE: Sewage truck accident fatalities are Henderson Legair & Kenroy Joseph. </span></h1></a>
+                    <p>ROAD TOWN, Tortola, VI- The two males involved in the fatal accident on Paul P. Wattley Road this...</p>                                                                                                                     
+                    | <a href="https://www.virginislandsnewsonline.com/en/news/update-sewage-truck-accident-fatalities-are-henderson-legair-kenroy-joseph-/#comments" title="Comment on UPDATE: Sewage truck accident fatalities are Henderson Legair & Kenroy Joseph. ">27 Comments »</a> | <a class="more" href="https://www.virginislandsnewsonline.com/en/news/update-sewage-truck-accident-fatalities-are-henderson-legair-kenroy-joseph-">more »</a>
+                  </div>
+                </li>
+            
+              
+                <li>
+                  <a href="https://www.virginislandsnewsonline.com/en/news/vi-govt-collaborating-to-revive-coastal-reefs-with-3d-printing-technology" style="float:left; display:block;width:350px;height:270px;overflow:hidden;">
+                    <img src="https://www.virginislandsnewsonline.com/cache/images/350x270_b_bvi_rrreefs_2024_crrreefs.jpg" />
+                  </a>
+                  <div class="text "> 
+                    <div class="meta">
+                      <span>
+                        January 30th, 2024                      </span>
+                    </div>
+                    <a href="https://www.virginislandsnewsonline.com/en/news/vi-govt-collaborating-to-revive-coastal-reefs-with-3d-printing-technology"><h1><span class="">VI Gov’t collaborating to revive coastal reefs with 3D printing technology</span></h1></a>
+                    <p>ROAD TOWN, Tortola, VI - The Government of the Virgin Islands has joined forces with the Associat...</p>                                                                                                                     
+                    | <a href="https://www.virginislandsnewsonline.com/en/news/vi-govt-collaborating-to-revive-coastal-reefs-with-3d-printing-technology/#comments" title="Comment on VI Gov’t collaborating to revive coastal reefs with 3D printing technology">5 Comments »</a> | <a class="more" href="https://www.virginislandsnewsonline.com/en/news/vi-govt-collaborating-to-revive-coastal-reefs-with-3d-printing-technology">more »</a>
+                  </div>
+                </li>
+            
+              
+                <li>
+                  <a href="https://www.virginislandsnewsonline.com/en/news/hon-fraser-objects-to-hon-de-castro-bringing-new-statement-to-continuation-of-hoa" style="float:left; display:block;width:350px;height:270px;overflow:hidden;">
+                    <img src="https://www.virginislandsnewsonline.com/cache/images/350x270_f_Fraser1.JPG" />
+                  </a>
+                  <div class="text "> 
+                    <div class="meta">
+                      <span>
+                        January 30th, 2024                      </span>
+                    </div>
+                    <a href="https://www.virginislandsnewsonline.com/en/news/hon-fraser-objects-to-hon-de-castro-bringing-new-statement-to-continuation-of-hoa"><h1><span class="">Hon Fraser objects to Hon de Castro bringing new statement to continuation of HoA</span></h1></a>
+                    <p>ROAD TOWN, Tortola, VI- Today, Tuesday, January 30, 2024, is the Continuation of the Sixth Sittin...</p>                                                                                                                     
+                    | <a href="https://www.virginislandsnewsonline.com/en/news/hon-fraser-objects-to-hon-de-castro-bringing-new-statement-to-continuation-of-hoa/#comments" title="Comment on Hon Fraser objects to Hon de Castro bringing new statement to continuation of HoA">12 Comments »</a> | <a class="more" href="https://www.virginislandsnewsonline.com/en/news/hon-fraser-objects-to-hon-de-castro-bringing-new-statement-to-continuation-of-hoa">more »</a>
+                  </div>
+                </li>
+            
+              
+                <li>
+                  <a href="https://www.virginislandsnewsonline.com/en/news/draft-immigration-policy-proposes-10-yrs-for-residency-20-yrs-for-belongership-eligibility" style="float:left; display:block;width:350px;height:270px;overflow:hidden;">
+                    <img src="https://www.virginislandsnewsonline.com/cache/images/350x270_i_IMG_3845_-_Copy.JPG" />
+                  </a>
+                  <div class="text "> 
+                    <div class="meta">
+                      <span>
+                        January 30th, 2024                      </span>
+                    </div>
+                    <a href="https://www.virginislandsnewsonline.com/en/news/draft-immigration-policy-proposes-10-yrs-for-residency-20-yrs-for-belongership-eligibility"><h1><span class="">Draft Immigration policy proposes 10 yrs for Residency & 20 yrs for Belongership eligibility</span></h1></a>
+                    <p>ROAD TOWN, Tortola, VI- A draft immigration policy is proposing the length of time a person must ...</p>                                                                                                                     
+                    | <a href="https://www.virginislandsnewsonline.com/en/news/draft-immigration-policy-proposes-10-yrs-for-residency-20-yrs-for-belongership-eligibility/#comments" title="Comment on Draft Immigration policy proposes 10 yrs for Residency & 20 yrs for Belongership eligibility">33 Comments »</a> | <a class="more" href="https://www.virginislandsnewsonline.com/en/news/draft-immigration-policy-proposes-10-yrs-for-residency-20-yrs-for-belongership-eligibility">more »</a>
+                  </div>
+                </li>
+            
+              
+                <li>
+                  <a href="https://www.virginislandsnewsonline.com/en/news/vi-usvi-to-clash-twice-in-concacaf-world-cup-qualifiers-in-march" style="float:left; display:block;width:350px;height:270px;overflow:hidden;">
+                    <img src="https://www.virginislandsnewsonline.com/cache/images/350x270_d_DSC_0585.JPG" />
+                  </a>
+                  <div class="text "> 
+                    <div class="meta">
+                      <span>
+                        January 30th, 2024                      </span>
+                    </div>
+                    <a href="https://www.virginislandsnewsonline.com/en/news/vi-usvi-to-clash-twice-in-concacaf-world-cup-qualifiers-in-march"><h1><span class="">VI & USVI to clash twice in CONCACAF World Cup Qualifiers in March</span></h1></a>
+                    <p>ROAD TOWN, Tortola, VI- The road to the 2026 FIFA World Cup begins for the [British] Virgin Islan...</p>                                                                                                                     
+                    | <a href="https://www.virginislandsnewsonline.com/en/news/vi-usvi-to-clash-twice-in-concacaf-world-cup-qualifiers-in-march/#comments" title="Comment on VI & USVI to clash twice in CONCACAF World Cup Qualifiers in March">3 Comments »</a> | <a class="more" href="https://www.virginislandsnewsonline.com/en/news/vi-usvi-to-clash-twice-in-concacaf-world-cup-qualifiers-in-march">more »</a>
+                  </div>
+                </li>
+                
+  
+            </ul>      
+            
+          </div>
+          
+          <div class="clear"></div>
+        
+          <div class="ad">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- VINO HP Under FF -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9501660195890936"
+     data-ad-slot="2690306605"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+    <a class="ad" href="/ads/dawater2_hp_ver2.gif" target="_blank" ><img src="/ads/dawater2_hp_ver2.gif" width="728" height="90" /></a>
+        <a class="ad" href="/ads/vishipre_hp.gif" target="_blank" ><img src="/ads/vishipre_hp.gif" width="728" height="90" /></a>
+        <a class="ad" href="https://www.tortolapier.com/" target="_blank" ><img src="/ads/tpp_2024-01-12_hp.png" width="728" height="90" /></a>
+    
+<div class="ad">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- VINO HP Under FF 2 -->
+<!--<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9501660195890936"
+     data-ad-slot="4274457807"
+     data-ad-format="auto"></ins> -->
+<script>
+// (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>                    
+        </div>      
+
+        
+        <div id="home_right">
+
+              <a class="ad" href="https://www.facebook.com/Aromascigarbarbvi/" target="_blank" ><img src="/ads/aromas_2024-01-29.jpg" width="240"  /></a>
+        <a class="ad" href="/ads/cartoon335v2b.jpg" target="_blank" ><img src="/ads/cartoon335v2a.jpg"   /></a>
+        <a class="ad" href="/ads/aquaticrentals.jpg" target="_blank" ><img src="/ads/aquaticrentals.jpg" width="240"  /></a>
+              
+          </div>
+                 
+          <div class="clear"></div>
+  
+          
+          <div id="home_panels">    
+            
+            <div class="panel home first">
+              <a href="/en/news/filter-category/12"><h1>Regional</h1></a>
+              <ul>
+              
+                    <li style="margin-bottom:0" class="">                
+                  <a href="/en/news/schools-operated-by-kidnapped-nuns-closed-indefinitely">
+                    <img class="panel_image" src="https://www.virginislandsnewsonline.com/cache/images/100x60_s_schoolshaiti.jpg" />
+                  </a>
+                  <div class="meta">
+                    <span>
+                      January 24th, 2024                     </span>                    
+                  </div>
+                  <a href="/en/news/schools-operated-by-kidnapped-nuns-closed-indefinitely">
+                    <strong>                    
+                      Schools operated by kidnapped nuns closed indefinitely                    </strong>
+                  </a><br />
+                  <span class="meta2">
+                    <a href="/en/news/schools-operated-by-kidnapped-nuns-closed-indefinitely/#comments" title="Comment on Schools operated by kidnapped nuns closed indefinitely">No Comments »</a>
+                  </span>                       
+                  <div class="clear"></div>
+                </li>
+                
+                    <li style="margin-bottom:0" class="">                
+                  <a href="/en/news/guyana-calls-for-global-solidarity-in-facing-new-challenges">
+                    <img class="panel_image" src="https://www.virginislandsnewsonline.com/cache/images/100x60_7_7813014.jpg" />
+                  </a>
+                  <div class="meta">
+                    <span>
+                      January 24th, 2024                     </span>                    
+                  </div>
+                  <a href="/en/news/guyana-calls-for-global-solidarity-in-facing-new-challenges">
+                    <strong>                    
+                      Guyana calls for global solidarity in facing new challenges                    </strong>
+                  </a><br />
+                  <span class="meta2">
+                    <a href="/en/news/guyana-calls-for-global-solidarity-in-facing-new-challenges/#comments" title="Comment on Guyana calls for global solidarity in facing new challenges">No Comments »</a>
+                  </span>                       
+                  <div class="clear"></div>
+                </li>
+                
+                    <li style="margin-bottom:0" class="">                
+                  <a href="/en/news/end-of-an-era-liat-1974-makes-final-flights-across-eastern-caribbean">
+                    <img class="panel_image" src="https://www.virginislandsnewsonline.com/cache/images/100x60_l_liat_photo-istock.com-jaminwell_630d3bb13d6c009df455f008a005eb13.jpg" />
+                  </a>
+                  <div class="meta">
+                    <span>
+                      January 24th, 2024                     </span>                    
+                  </div>
+                  <a href="/en/news/end-of-an-era-liat-1974-makes-final-flights-across-eastern-caribbean">
+                    <strong>                    
+                      End of an Era: LIAT 1974 makes final flights across Easte...                    </strong>
+                  </a><br />
+                  <span class="meta2">
+                    <a href="/en/news/end-of-an-era-liat-1974-makes-final-flights-across-eastern-caribbean/#comments" title="Comment on End of an Era: LIAT 1974 makes final flights across Eastern Caribbean">No Comments »</a>
+                  </span>                       
+                  <div class="clear"></div>
+                </li>
+                
+                  </ul>
+            </div>
+            
+            <div class="panel home second">
+              <a href="/en/news/filter-category/13"><h1>International</h1></a>
+              <ul>
+              
+                    <li style="margin-bottom:0" class="">                
+                  <a href="/en/news/canada-preparing-for-second-trump-presidency">
+                    <img class="panel_image" src="https://www.virginislandsnewsonline.com/cache/images/100x60_7_7817080.jpg" />
+                  </a>
+                  <div class="meta">
+                    <span>
+                      January 24th, 2024                     </span>                    
+                  </div>
+                  <a href="/en/news/canada-preparing-for-second-trump-presidency">
+                    <strong>                    
+                      Canada preparing for second Trump presidency                    </strong>
+                  </a><br />
+                  <span class="meta2">
+                    <a href="/en/news/canada-preparing-for-second-trump-presidency/#comments" title="Comment on Canada preparing for second Trump presidency">No Comments »</a>
+                  </span>                       
+                  <div class="clear"></div>
+                </li>
+                
+                    <li style="margin-bottom:0" class="">                
+                  <a href="/en/news/eu-pushes-for-palestinian-statehood">
+                    <img class="panel_image" src="https://www.virginislandsnewsonline.com/cache/images/100x60_7_7815901.jpg" />
+                  </a>
+                  <div class="meta">
+                    <span>
+                      January 24th, 2024                     </span>                    
+                  </div>
+                  <a href="/en/news/eu-pushes-for-palestinian-statehood">
+                    <strong>                    
+                      EU pushes for Palestinian statehood                    </strong>
+                  </a><br />
+                  <span class="meta2">
+                    <a href="/en/news/eu-pushes-for-palestinian-statehood/#comments" title="Comment on EU pushes for Palestinian statehood">No Comments »</a>
+                  </span>                       
+                  <div class="clear"></div>
+                </li>
+                
+                    <li style="margin-bottom:0" class="">                
+                  <a href="/en/news/trump-closes-in-on-republican-nomination-after-big-new-hampshire-win">
+                    <img class="panel_image" src="https://www.virginislandsnewsonline.com/cache/images/100x60_b_BB1h9Pyq.jpeg" />
+                  </a>
+                  <div class="meta">
+                    <span>
+                      January 24th, 2024                     </span>                    
+                  </div>
+                  <a href="/en/news/trump-closes-in-on-republican-nomination-after-big-new-hampshire-win">
+                    <strong>                    
+                      Trump closes in on Republican nomination after big New Ha...                    </strong>
+                  </a><br />
+                  <span class="meta2">
+                    <a href="/en/news/trump-closes-in-on-republican-nomination-after-big-new-hampshire-win/#comments" title="Comment on Trump closes in on Republican nomination after big New Hampshire win">No Comments »</a>
+                  </span>                       
+                  <div class="clear"></div>
+                </li>
+                
+                    
+              </ul>
+            </div>    
+            
+            <div class="clear"></div>                
+            
+          </div>      
+      
+        </div> 
+  
+          <!--div style="margin-bottom:20px;">
+  <iframe src="https://app.onlymega.com/preview.html?id=86d3b0eaef48740f22c5acec0eccceb5725f6f053de1&width=960&height=90" width="100%" height="90" frameborder="0" scrolling="no" allowtransparency="true" style="height: 90px;"></iframe>
+</div!-->
+<!--div style="margin-bottom:20px;">
+  <iframe width="960" height="90" src="http://www.virginislandsnewsonline.com/ads/countdown_960x90.html" frameborder="0" scrolling="no" allowfullscreen></iframe>
+</div!-->
+    <a class="ad" href="/ads/hlscc_2024-01-25_hp.png" target="_blank" ><img src="/ads/hlscc_2024-01-25_hp.png" width="990" height="90" /></a>
+        <a class="ad" href="/ads/asif_990_2.jpg" target="_blank" ><img src="/ads/asif_990_2.jpg" width="990" height="90" /></a>
+        <a class="ad" href="/ads/vino_frame__fm_launch.gif" target="_blank" ><img src="/ads/vino_frame__fm_launch.gif" width="990" height="90" /></a>
+    
+<div class="ad">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- VINO HP Articles Billboard -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9501660195890936"
+     data-ad-slot="8285855007"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>  
+            
+        <div id="content">
+        
+          <div id="content_left">
+
+
+
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/daniel-pruce-sworn-in-as-15th-governor-of-the-virgin-islands">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_s_Screenshot_2024-01-29_at_18.01.50.png" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/daniel-pruce-sworn-in-as-15th-governor-of-the-virgin-islands">
+                  <div class="meta">
+                    <span>
+                      January 29th, 2024                     </span>                    
+                  </div>
+                  <span>Daniel Pruce sworn in as 15th Governor of the Virgin Islands</span>
+                </a>
+              </h1>
+              <p>
+                ROAD TOWN, Tortola, VI - Mr Daniel Pruce was sworn in as the 15th Governor of the Virgin Islands today, January 29, 2024, after taking the Oath of Office before an audience of family, legislators, public servants, and others in the Virgin Islands (VI).                 <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/daniel-pruce-sworn-in-as-15th-governor-of-the-virgin-islands">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/2">Community</a>, <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/1">News</a> | <a href="https://www.virginislandsnewsonline.com/en/news/daniel-pruce-sworn-in-as-15th-governor-of-the-virgin-islands/#comments" title="Comment on Daniel Pruce sworn in as 15th Governor of the Virgin Islands">41 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/water-could-be-coming-to-farmers-paraquita-bay-smith-berkeley">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_4_400000-gallon-tank-bg3.jpg" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/water-could-be-coming-to-farmers-paraquita-bay-smith-berkeley">
+                  <div class="meta">
+                    <span>
+                      January 29th, 2024                     </span>                    
+                  </div>
+                  <span>Water could be coming to farmers @ Paraquita Bay- Smith-Berkeley</span>
+                </a>
+              </h1>
+              <p>
+                ROAD TOWN, Tortola, VI- The vexing issue of water for farming continues to be a challenge for farmers who use the Paraquita Bay lands on Tortola to plant and rear livestock. However, according to information from the House of Assembly Standing Finance Committee (SFC) Report, this is expected to be addressed.                <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/water-could-be-coming-to-farmers-paraquita-bay-smith-berkeley">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/6">Finance/Business</a>, <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/1">News</a> | <a href="https://www.virginislandsnewsonline.com/en/news/water-could-be-coming-to-farmers-paraquita-bay-smith-berkeley/#comments" title="Comment on Water could be coming to farmers @ Paraquita Bay- Smith-Berkeley">25 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/reading-vi-news-blogs-is-not-constructive-for-me-karia-j-christopher">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_s_Screenshot_2024-01-29_at_09.43.15.png" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/reading-vi-news-blogs-is-not-constructive-for-me-karia-j-christopher">
+                  <div class="meta">
+                    <span>
+                      January 29th, 2024                     </span>                    
+                  </div>
+                  <span>Reading VI news blogs is 'not constructive for me'– Karia J. Christopher</span>
+                </a>
+              </h1>
+              <p>
+                ROAD TOWN, Tortola, VI – Real Talk host Mrs Karia J. Christopher, who is also the acting Director of Communications, has said 'blogs' on news articles in the Virgin Islands are unconstructive for her and that she tries not to read any.                <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/reading-vi-news-blogs-is-not-constructive-for-me-karia-j-christopher">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/1">News</a> | <a href="https://www.virginislandsnewsonline.com/en/news/reading-vi-news-blogs-is-not-constructive-for-me-karia-j-christopher/#comments" title="Comment on Reading VI news blogs is 'not constructive for me'– Karia J. Christopher">26 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+<div style="border-bottom: 1px solid #e1e1e1; margin-bottom: 20px; padding-bottom: 20px;">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- VINO HP Articles -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-9501660195890936"
+     data-ad-slot="1742270603"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/jamaican-allegedly-denied-entry-into-vi-although-a-belonger-hon-fraser-claims-01-02">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_i_Immigration_Dept_05.jpg" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/jamaican-allegedly-denied-entry-into-vi-although-a-belonger-hon-fraser-claims-01-02">
+                  <div class="meta">
+                    <span>
+                      January 29th, 2024                     </span>                    
+                  </div>
+                  <span>Jamaican allegedly denied entry into VI although a Belonger- Hon Fraser claims</span>
+                </a>
+              </h1>
+              <p>
+                ROAD TOWN, Tortola, VI- A Jamaican who is a Virgin Islands Belonger was allegedly denied entry to the Territory as they were not a holder of a Virgin Islands (VI) visa, Opposition Member and Third District Representative Hon Julian Fraser RA has claimed.                <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/jamaican-allegedly-denied-entry-into-vi-although-a-belonger-hon-fraser-claims-01-02">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/6">Finance/Business</a>, <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/1">News</a> | <a href="https://www.virginislandsnewsonline.com/en/news/jamaican-allegedly-denied-entry-into-vi-although-a-belonger-hon-fraser-claims-01-02/#comments" title="Comment on Jamaican allegedly denied entry into VI although a Belonger- Hon Fraser claims">41 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/we-will-be-whatever-we-allow-ourselves-to-be">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_a_Alred_C_Frett_72.jpg" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/we-will-be-whatever-we-allow-ourselves-to-be">
+                  <div class="meta">
+                    <span>
+                      January 30th, 2024                     </span>                    
+                  </div>
+                  <span>We will be whatever we allow ourselves to be</span>
+                </a>
+              </h1>
+              <p>
+                Alred C. Frett<br />
+<br />
+Being Called on to Fight for a Lost Cause:<br />
+<br />
+All our lives we were taught to ‘go along in order to get along’... Society conditioned us to be weak-kneed and feeble-minded; always ready to ignore our own needs while sacrificing ourselves for others... Welcome to a New World… Today, we are about to embark on a journey of Facts, but if you are stuck on valuing yourself through the Eyes and Mouths of others, this Message may be too deep for you to fathom.                <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/we-will-be-whatever-we-allow-ourselves-to-be">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/8">Local Politics</a>, <a href="/en/news/filter-category/1">News</a> | <a href="https://www.virginislandsnewsonline.com/en/news/we-will-be-whatever-we-allow-ourselves-to-be/#comments" title="Comment on We will be whatever we allow ourselves to be">2 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/vehicles-collide-paraquita-bay">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_a_accident_02.png" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/vehicles-collide-paraquita-bay">
+                  <div class="meta">
+                    <span>
+                      January 29th, 2024                     </span>                    
+                  </div>
+                  <span>Vehicles collide @ Paraquita Bay</span>
+                </a>
+              </h1>
+              <p>
+                PARAQUITA BAY, Tortola, VI- Police and ambulance were called to the scene of a vehicular collision at Paraquita Bay on Tortola on Sunday afternoon, January 28, 2024.                <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/vehicles-collide-paraquita-bay">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/1">News</a> | <a href="https://www.virginislandsnewsonline.com/en/news/vehicles-collide-paraquita-bay/#comments" title="Comment on Vehicles collide @ Paraquita Bay">13 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/nba-star-pascal-siakam-lists-bvi-as-favourite-vacation-destination">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_p_Pascal1.jpg" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/nba-star-pascal-siakam-lists-bvi-as-favourite-vacation-destination">
+                  <div class="meta">
+                    <span>
+                      January 28th, 2024                     </span>                    
+                  </div>
+                  <span>NBA star Pascal Siakam lists BVI as favourite vacation destination</span>
+                </a>
+              </h1>
+              <p>
+                INDIANAPOLIS, Indiana, USA- The [British] Virgin Islands, a top Caribbean tourism destination, continues to attract hundreds of thousands of visitors every year, including the rich and famous.                <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/nba-star-pascal-siakam-lists-bvi-as-favourite-vacation-destination">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/1">News</a>, <a href="/en/news/filter-category/10">Sports</a> | <a href="https://www.virginislandsnewsonline.com/en/news/nba-star-pascal-siakam-lists-bvi-as-favourite-vacation-destination/#comments" title="Comment on NBA star Pascal Siakam lists BVI as favourite vacation destination">15 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+
+<div style="border-bottom: 1px solid #e1e1e1; margin-bottom: 20px; padding-bottom: 20px;">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- VINO HP Bottom Billboard 2 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9501660195890936"
+     data-ad-slot="1339781005"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/categories-of-persons-exempted-from-work-permits-to-be-expanded">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_8_800x_8_800x_2_20200521_142712_06.jpg" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/categories-of-persons-exempted-from-work-permits-to-be-expanded">
+                  <div class="meta">
+                    <span>
+                      January 28th, 2024                     </span>                    
+                  </div>
+                  <span>Categories of persons exempted from work permits to be expanded</span>
+                </a>
+              </h1>
+              <p>
+                ROAD TOWN, Tortola, VI- The categories of persons exempt from work permits are to be expanded.                <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/categories-of-persons-exempted-from-work-permits-to-be-expanded">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/1">News</a> | <a href="https://www.virginislandsnewsonline.com/en/news/categories-of-persons-exempted-from-work-permits-to-be-expanded/#comments" title="Comment on Categories of persons exempted from work permits to be expanded">22 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/worlds-largest-cruise-ship-to-dock-in-stt-during-maiden-voyage">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_i_Icon_of_the_Seas.jpg" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/worlds-largest-cruise-ship-to-dock-in-stt-during-maiden-voyage">
+                  <div class="meta">
+                    <span>
+                      January 28th, 2024                     </span>                    
+                  </div>
+                  <span>World’s largest cruise ship to dock in STT during maiden voyage</span>
+                </a>
+              </h1>
+              <p>
+                VI CONSORTIUM<br />
+<br />
+CHARLOTTE AMALIE, St Thomas, USVI- Royal Caribbean’s Icon of the Seas, the world’s newest and largest cruise ship, is scheduled to make its inaugural call to Charlotte Amalie on Wednesday, January 31, 2024, at the Austin Monsanto Marine Terminal in Crown Bay, St Thomas, which is operated by the [US] VI Port Authority.                <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/worlds-largest-cruise-ship-to-dock-in-stt-during-maiden-voyage">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/1">News</a> | <a href="https://www.virginislandsnewsonline.com/en/news/worlds-largest-cruise-ship-to-dock-in-stt-during-maiden-voyage/#comments" title="Comment on World’s largest cruise ship to dock in STT during maiden voyage">7 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/premier-joins-in-celebrating-life-service-of-late-captain-wladyslaw-wagner">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_4_421735753_122142460328063947_3735854265678144821_n.jpg" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/premier-joins-in-celebrating-life-service-of-late-captain-wladyslaw-wagner">
+                  <div class="meta">
+                    <span>
+                      January 28th, 2024                     </span>                    
+                  </div>
+                  <span>Premier joins in celebrating life & service of late Captain Wladyslaw Wagner</span>
+                </a>
+              </h1>
+              <p>
+                TRELLIS BAY, Beef Island, VI- On Thursday, January 25, 2024, Premier Dr the Honourable Natalio D. Wheatley (R7) joined in celebrating the life and service of Polish sailor, the late Captain Wladyslaw Wagner at the opening ceremony of the 2024 Wagner Sailing Rally.                <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/premier-joins-in-celebrating-life-service-of-late-captain-wladyslaw-wagner">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/1">News</a> | <a href="https://www.virginislandsnewsonline.com/en/news/premier-joins-in-celebrating-life-service-of-late-captain-wladyslaw-wagner/#comments" title="Comment on Premier joins in celebrating life & service of late Captain Wladyslaw Wagner">4 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/mostly-partly-sunny-skies-today-but-increased-chances-of-showers-tonight-ddm">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_i_IMG_2296_23.JPG" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/mostly-partly-sunny-skies-today-but-increased-chances-of-showers-tonight-ddm">
+                  <div class="meta">
+                    <span>
+                      January 28th, 2024                     </span>                    
+                  </div>
+                  <span>Mostly partly sunny skies today but increased chances of showers tonight- DDM</span>
+                </a>
+              </h1>
+              <p>
+                ROAD TOWN, Tortola, VI- Relatively stable conditions will prevail across the area today, January 28, 2024, however, by tonight a weak strike will move into the area and gradually increase the chances of rain activity on and around the islands during that time.                <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/mostly-partly-sunny-skies-today-but-increased-chances-of-showers-tonight-ddm">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/1">News</a> | <a href="https://www.virginislandsnewsonline.com/en/news/mostly-partly-sunny-skies-today-but-increased-chances-of-showers-tonight-ddm/#comments" title="Comment on Mostly partly sunny skies today but increased chances of showers tonight- DDM">1 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+
+
+<div style="border-bottom: 1px solid #e1e1e1; margin-bottom: 20px; padding-bottom: 20px;">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- VINO HP Bottom Billboard 3 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9501660195890936"
+     data-ad-slot="2816514202"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/winair-steps-up-with-more-flights-to-from-vi-">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_5_51t98311939305__wqlSaWNoYXJkIEhhemVsIF84MDA1NjcwLTIwMTkwNTE2b_64.jpg" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/winair-steps-up-with-more-flights-to-from-vi-">
+                  <div class="meta">
+                    <span>
+                      January 27th, 2024                     </span>                    
+                  </div>
+                  <span>WINAIR steps up with more flights to & from VI </span>
+                </a>
+              </h1>
+              <p>
+                BEEF ISLAND, VI - Windward Islands Airways International NV (WINAIR), a government-owned Dutch airline based in Sint Maarten, has stepped up expansion plans as the operations of LIAT has come to an end leaving potential gaps in the regional market.                 <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/winair-steps-up-with-more-flights-to-from-vi-">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/2">Community</a>, <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/1">News</a> | <a href="https://www.virginislandsnewsonline.com/en/news/winair-steps-up-with-more-flights-to-from-vi-/#comments" title="Comment on WINAIR steps up with more flights to & from VI ">10 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/quaker-issues-additional-product-recall-over-potential-salmonella-contamination">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_r_recalled_products.jpg" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/quaker-issues-additional-product-recall-over-potential-salmonella-contamination">
+                  <div class="meta">
+                    <span>
+                      January 27th, 2024                     </span>                    
+                  </div>
+                  <span>Quaker issues additional product recall over potential salmonella contamination</span>
+                </a>
+              </h1>
+              <p>
+                PASEA ESTATE , Tortola, VI - The Quaker Oats Company, through its authorised distributors in the Virign Islands (VI), has announced an expansion of the December 20, 2023, product recall to include additional cereals, bars and snacks over potential Salmonella contamination.                <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/quaker-issues-additional-product-recall-over-potential-salmonella-contamination">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/2">Community</a>, <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/1">News</a> | <a href="https://www.virginislandsnewsonline.com/en/news/quaker-issues-additional-product-recall-over-potential-salmonella-contamination/#comments" title="Comment on Quaker issues additional product recall over potential salmonella contamination">6 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/vi-deposit-insurance-corporation-launched-to-usher-in-new-era-of-financial-security">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_s_Screenshot_2024-01-27_at_15.56.07.png" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/vi-deposit-insurance-corporation-launched-to-usher-in-new-era-of-financial-security">
+                  <div class="meta">
+                    <span>
+                      January 27th, 2024                     </span>                    
+                  </div>
+                  <span>VI Deposit Insurance Corporation launched to usher in new era of Financial Security</span>
+                </a>
+              </h1>
+              <p>
+                ROAD TOWN, Tortola, VI - The Ministry of Finance has announced the establishment of the Virgin Islands Deposit Insurance Corporation (VIDIC), a crucial step towards enhancing ﬁnancial security for depositors within the Territory of the Virgin Islands.                <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/vi-deposit-insurance-corporation-launched-to-usher-in-new-era-of-financial-security">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/2">Community</a>, <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/1">News</a> | <a href="https://www.virginislandsnewsonline.com/en/news/vi-deposit-insurance-corporation-launched-to-usher-in-new-era-of-financial-security/#comments" title="Comment on VI Deposit Insurance Corporation launched to usher in new era of Financial Security">10 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/carvin-malone-never-wanted-to-undermine-unity-govt-hon-rymer">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_s_Screenshot_2024-01-27_at_11.59.50.png" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/carvin-malone-never-wanted-to-undermine-unity-govt-hon-rymer">
+                  <div class="meta">
+                    <span>
+                      January 27th, 2024                     </span>                    
+                  </div>
+                  <span>Carvin Malone never wanted to undermine Unity Gov't - Hon Rymer</span>
+                </a>
+              </h1>
+              <p>
+                ROAD TOWN, Tortola, VI - As part of a special sitting of the House of Assembly on January 25, 2024, late former Legislator Carvin Malone was recalled as one who generously shared his wisdom and experience, according to Minister for Communications and Works Hon Kye M. Rymer (R5).                <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/carvin-malone-never-wanted-to-undermine-unity-govt-hon-rymer">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/2">Community</a>, <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/1">News</a> | <a href="https://www.virginislandsnewsonline.com/en/news/carvin-malone-never-wanted-to-undermine-unity-govt-hon-rymer/#comments" title="Comment on Carvin Malone never wanted to undermine Unity Gov't - Hon Rymer">11 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/governor-designate-mr-daniel-pruce-arrives-in-vi">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_w_WhatsApp_Image_2024-01-27_at_13.31.31.jpeg" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/governor-designate-mr-daniel-pruce-arrives-in-vi">
+                  <div class="meta">
+                    <span>
+                      January 27th, 2024                     </span>                    
+                  </div>
+                  <span>Governor Designate Mr Daniel Pruce arrives in VI</span>
+                </a>
+              </h1>
+              <p>
+                TRELLIS BAY, Beef Island, VI – Ahead of Monday’s January 29, 2024, swearing-in ceremony, Governor Designate Mr Daniel Pruce arrived in the Virgin Islands (VI) last evening, January 26, 2024, with his wife Ms Rachael Morgan.                 <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/governor-designate-mr-daniel-pruce-arrives-in-vi">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/2">Community</a>, <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/1">News</a> | <a href="https://www.virginislandsnewsonline.com/en/news/governor-designate-mr-daniel-pruce-arrives-in-vi/#comments" title="Comment on Governor Designate Mr Daniel Pruce arrives in VI">40 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/sexuality-gender-issues-causing-divisions-in-congregations-rev-everald-l-galbraith">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_r_Reve1.jpg" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/sexuality-gender-issues-causing-divisions-in-congregations-rev-everald-l-galbraith">
+                  <div class="meta">
+                    <span>
+                      January 26th, 2024                     </span>                    
+                  </div>
+                  <span>Sexuality & gender issues causing divisions in congregations- Rev Everald L. Galbraith</span>
+                </a>
+              </h1>
+              <p>
+                SEA COWS BAY, Tortola, VI- Giving the charge to two newly ordained Methodist Ministers of the BVI Circuit, MCCA Connexional President, Bishop, The Reverend Everald L. Galbraith reminded them that these are “challenging times”, but they should preach the Gospel in season and out of season.                <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/sexuality-gender-issues-causing-divisions-in-congregations-rev-everald-l-galbraith">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/1">News</a>, <a href="/en/news/filter-category/9">Religion</a> | <a href="https://www.virginislandsnewsonline.com/en/news/sexuality-gender-issues-causing-divisions-in-congregations-rev-everald-l-galbraith/#comments" title="Comment on Sexuality & gender issues causing divisions in congregations- Rev Everald L. Galbraith">16 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+
+
+
+<div style="border-bottom: 1px solid #e1e1e1; margin-bottom: 20px; padding-bottom: 20px;">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- VINO HP Bottom Billboard 4 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9501660195890936"
+     data-ad-slot="2934937990"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/hoa-to-meet-jan-31-2024">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_2_20191127_143624_04.jpg" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/hoa-to-meet-jan-31-2024">
+                  <div class="meta">
+                    <span>
+                      January 26th, 2024                     </span>                    
+                  </div>
+                  <span>HoA to meet Jan 31, 2024</span>
+                </a>
+              </h1>
+              <p>
+                ROAD TOWN, Tortola, VI- Legislators in the Virgin Islands House of Assembly (HoA) will meet on Wednesday, January 31, 2024, to conduct business on behalf of the people.                <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/hoa-to-meet-jan-31-2024">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/1">News</a> | <a href="https://www.virginislandsnewsonline.com/en/news/hoa-to-meet-jan-31-2024/#comments" title="Comment on HoA to meet Jan 31, 2024">2 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/jack-the-capitalist">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_8_800x_d_DicksonIgwe_03_08.jpeg" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/jack-the-capitalist">
+                  <div class="meta">
+                    <span>
+                      January 27th, 2024                     </span>                    
+                  </div>
+                  <span>Jack the Capitalist</span>
+                </a>
+              </h1>
+              <p>
+                Dickson C. Igew <br />
+<br />
+A $500 million yacht moors off a remote Caribbean island. A helicopter takes off from its deck. A massive private jet sits silently on the tarmac of a private airport nearby; surrounded by smaller planes. A billionaire is ‘chilling’ off his private island with his friends and associates.                 <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/jack-the-capitalist">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/2">Community</a>, <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/1">News</a> | <a href="https://www.virginislandsnewsonline.com/en/news/jack-the-capitalist/#comments" title="Comment on Jack the Capitalist">4 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/over-76m-to-pay-civil-servants-excluding-payroll-taxes-ss-nhi-statutory-subventions">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_8_800x_8_800x_c_Central_Complex_10.JPG" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/over-76m-to-pay-civil-servants-excluding-payroll-taxes-ss-nhi-statutory-subventions">
+                  <div class="meta">
+                    <span>
+                      January 26th, 2024                     </span>                    
+                  </div>
+                  <span>Over $76M to pay civil servants, excluding Payroll Taxes, SS, NHI & Statutory subventions</span>
+                </a>
+              </h1>
+              <p>
+                ROAD TOWN, Tortola, VI- The cost of the civil servant is growing as more and more Heads of Departments and Ministries are asking for more staff.                <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/over-76m-to-pay-civil-servants-excluding-payroll-taxes-ss-nhi-statutory-subventions">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/6">Finance/Business</a>, <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/1">News</a> | <a href="https://www.virginislandsnewsonline.com/en/news/over-76m-to-pay-civil-servants-excluding-payroll-taxes-ss-nhi-statutory-subventions/#comments" title="Comment on Over $76M to pay civil servants, excluding Payroll Taxes, SS, NHI & Statutory subventions">26 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/st-georges-upset-cedar-a-to-reach-final-of-bdo-u9-football-league">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_4_422848281_916488773813859_2589991614544271269_n.jpg" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/st-georges-upset-cedar-a-to-reach-final-of-bdo-u9-football-league">
+                  <div class="meta">
+                    <span>
+                      January 26th, 2024                     </span>                    
+                  </div>
+                  <span>St George’s upset Cedar A to reach final of BDO U9 Football League</span>
+                </a>
+              </h1>
+              <p>
+                GREENLAND, Tortola, VI- The finalists for the U7 and the U9 categories of the BDO Primary Schools Football League have been decided.                <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/st-georges-upset-cedar-a-to-reach-final-of-bdo-u9-football-league">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/1">News</a>, <a href="/en/news/filter-category/10">Sports</a> | <a href="https://www.virginislandsnewsonline.com/en/news/st-georges-upset-cedar-a-to-reach-final-of-bdo-u9-football-league/#comments" title="Comment on St George’s upset Cedar A to reach final of BDO U9 Football League">4 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/carvin-malone-crossed-floor-because-unity-govt-was-afraid-of-britain-hon-walwyn">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_s_Screenshot_2024-01-25_at_14.15.59.png" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/carvin-malone-crossed-floor-because-unity-govt-was-afraid-of-britain-hon-walwyn">
+                  <div class="meta">
+                    <span>
+                      January 26th, 2024                     </span>                    
+                  </div>
+                  <span>Carvin Malone crossed floor because Unity Gov’t was ‘afraid’ of Britain- Hon Walwyn</span>
+                </a>
+              </h1>
+              <p>
+                ROAD TOWN, Tortola, VI– Opposition Member in the Virgin Islands (VI) House of Assembly (HoA), Hon Myron V. Walywn (AL), in paying tribute to Mr Carvin Malone, said the late former legislator sacrificed his political career to keep the territory informed when he crossed the floor to join the Opposition after the Government of Unity formed following the release of the Commission of Inquiry (CoI) Report in 2022.                <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/carvin-malone-crossed-floor-because-unity-govt-was-afraid-of-britain-hon-walwyn">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/8">Local Politics</a>, <a href="/en/news/filter-category/1">News</a> | <a href="https://www.virginislandsnewsonline.com/en/news/carvin-malone-crossed-floor-because-unity-govt-was-afraid-of-britain-hon-walwyn/#comments" title="Comment on Carvin Malone crossed floor because Unity Gov’t was ‘afraid’ of Britain- Hon Walwyn">29 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/tributes-flow-in-hoa-for-late-former-legislator-carvin-malone">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_i_img_44423423.jpg" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/tributes-flow-in-hoa-for-late-former-legislator-carvin-malone">
+                  <div class="meta">
+                    <span>
+                      January 25th, 2024                     </span>                    
+                  </div>
+                  <span>Tributes flow in HoA for late former legislator Carvin Malone</span>
+                </a>
+              </h1>
+              <p>
+                ROAD TOWN, Tortola, VI – The Seventh Sitting of the First Session of the Fifth House of Assembly (HoA) began today, January 25, 2024, in Road Town, Tortola, with a motion to pay tribute to the late legislator, Carvin Malone (AL) who died on January 14, 2024.                 <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/tributes-flow-in-hoa-for-late-former-legislator-carvin-malone">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/1">News</a> | <a href="https://www.virginislandsnewsonline.com/en/news/tributes-flow-in-hoa-for-late-former-legislator-carvin-malone/#comments" title="Comment on Tributes flow in HoA for late former legislator Carvin Malone">11 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/adam-goldberg-falsely-purporting-to-be-licensed-bvifsc">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_f_FSC.JPG" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/adam-goldberg-falsely-purporting-to-be-licensed-bvifsc">
+                  <div class="meta">
+                    <span>
+                      January 25th, 2024                     </span>                    
+                  </div>
+                  <span>Adam Goldberg 'falsely purporting to be licensed'- BVIFSC</span>
+                </a>
+              </h1>
+              <p>
+                PASEA ESTATE, Tortola, VI – The British Virgin Islands Financial Services Commission (BVIFSC) is alerting the public that Adam Goldberg has never been licensed or regulated as a person or entity by the FSC to carry on any type of financial services business.                <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/adam-goldberg-falsely-purporting-to-be-licensed-bvifsc">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/6">Finance/Business</a>, <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/1">News</a> | <a href="https://www.virginislandsnewsonline.com/en/news/adam-goldberg-falsely-purporting-to-be-licensed-bvifsc/#comments" title="Comment on Adam Goldberg 'falsely purporting to be licensed'- BVIFSC">8 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/vi-hosting-wagner-sailing-rally">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_s_sailing_08.jpg" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/vi-hosting-wagner-sailing-rally">
+                  <div class="meta">
+                    <span>
+                      January 25th, 2024                     </span>                    
+                  </div>
+                  <span>VI hosting Wagner Sailing Rally</span>
+                </a>
+              </h1>
+              <p>
+                TRELLIS BAY, Beef Island, VI- The [British] Virgin Islands is hosting the fourth Wagner Sailing Rally between January 25 and January 28, 2024.                <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/vi-hosting-wagner-sailing-rally">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/2">Community</a>, <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/1">News</a> | <a href="https://www.virginislandsnewsonline.com/en/news/vi-hosting-wagner-sailing-rally/#comments" title="Comment on VI hosting Wagner Sailing Rally">2 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/bvifsc-confirms-executive-appointments-of-leon-a-wheatley-tashel-martin-jackson">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_e_exec.jpg" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/bvifsc-confirms-executive-appointments-of-leon-a-wheatley-tashel-martin-jackson">
+                  <div class="meta">
+                    <span>
+                      January 25th, 2024                     </span>                    
+                  </div>
+                  <span>BVIFSC confirms executive appointments of Leon A. Wheatley & Tashel Martin-Jackson</span>
+                </a>
+              </h1>
+              <p>
+                PASEA ESTATE, Tortola, VI- The BVI Financial Services Commission (BVIFSC) recently confirmed the executive appointments of Mr Leon A. Wheatley and Mrs Tashel Martin-Jackson.                <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/bvifsc-confirms-executive-appointments-of-leon-a-wheatley-tashel-martin-jackson">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/6">Finance/Business</a>, <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/1">News</a> | <a href="https://www.virginislandsnewsonline.com/en/news/bvifsc-confirms-executive-appointments-of-leon-a-wheatley-tashel-martin-jackson/#comments" title="Comment on BVIFSC confirms executive appointments of Leon A. Wheatley & Tashel Martin-Jackson">13 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/reports-of-swine-flu-h1n1-outbreak-in-vi-are-false-bvihsa">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_b_BVIHSA_03.jpg" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/reports-of-swine-flu-h1n1-outbreak-in-vi-are-false-bvihsa">
+                  <div class="meta">
+                    <span>
+                      January 25th, 2024                     </span>                    
+                  </div>
+                  <span>Reports of swine flu (H1N1) outbreak in VI are false- BVIHSA</span>
+                </a>
+              </h1>
+              <p>
+                ROAD TOWN, Tortola, VI- The BVI Health Services Authority (BVIHSA) has said reports circulating on social media about a swine flu outbreak in the territory are completely inaccurate.                <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/reports-of-swine-flu-h1n1-outbreak-in-vi-are-false-bvihsa">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/7">Health</a>, <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/1">News</a> | <a href="https://www.virginislandsnewsonline.com/en/news/reports-of-swine-flu-h1n1-outbreak-in-vi-are-false-bvihsa/#comments" title="Comment on Reports of swine flu (H1N1) outbreak in VI are false- BVIHSA">10 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/fort-recovery-man-charged-with-assault-on-a-police-officer">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_8_800x_d_db20768742ac4259a406c31ae842aa26_12.jpg" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/fort-recovery-man-charged-with-assault-on-a-police-officer">
+                  <div class="meta">
+                    <span>
+                      January 24th, 2024                     </span>                    
+                  </div>
+                  <span>Fort Recovery man charged with assault on a Police Officer</span>
+                </a>
+              </h1>
+              <p>
+                ROAD TOWN, Tortola, VI – Police in the Virgin Islands (VI) on January 19, 2023, at 15:36hrs arrested and charged Peter Davis of Fort Recovery with Assault on a Police Officer according to the police blotter of January 1 to 20, 2023.                 <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/fort-recovery-man-charged-with-assault-on-a-police-officer">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/2">Community</a>, <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/1">News</a> | <a href="https://www.virginislandsnewsonline.com/en/news/fort-recovery-man-charged-with-assault-on-a-police-officer/#comments" title="Comment on Fort Recovery man charged with assault on a Police Officer">5 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/goals-galore-in-latest-national-league-action">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_4_421865309_3548180522115856_7223896903445896290_n.jpg" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/goals-galore-in-latest-national-league-action">
+                  <div class="meta">
+                    <span>
+                      January 24th, 2024                     </span>                    
+                  </div>
+                  <span>Goals galore in latest National League action</span>
+                </a>
+              </h1>
+              <p>
+                VALLEY, Virgin Gorda, VI- VG United once again showed they can handle the pressure of being league leaders as they absorbed some early pressure and then tore apart their opponents, Rebels FC, in an eventual 8-0 romp, which kept them one point ahead of the Wolues FC on Sunday, January 21, 2024.                <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/goals-galore-in-latest-national-league-action">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/1">News</a>, <a href="/en/news/filter-category/10">Sports</a> | <a href="https://www.virginislandsnewsonline.com/en/news/goals-galore-in-latest-national-league-action/#comments" title="Comment on Goals galore in latest National League action">1 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/vis-smart-schools-being-fortified-against-challenges-of-climate-change-ddm-director">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_s_sssv-1.jpg" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/vis-smart-schools-being-fortified-against-challenges-of-climate-change-ddm-director">
+                  <div class="meta">
+                    <span>
+                      January 24th, 2024                     </span>                    
+                  </div>
+                  <span>VI's Smart Schools being fortified against challenges of Climate Change- DDM Director</span>
+                </a>
+              </h1>
+              <p>
+                ROAD TOWN, Tortola, VI- As the Virgin Islands continues making strides to strengthen schools against the unpredictable impacts of disasters and climate change under the BVI SMART Schools initiative, Director of the Department of Disaster Management (DDM) Jasen H. Penn said the initiative is preparing the wider community for greater resilience, which ultimately means a more prepared Virgin Islands.                <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/vis-smart-schools-being-fortified-against-challenges-of-climate-change-ddm-director">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/1">News</a> | <a href="https://www.virginislandsnewsonline.com/en/news/vis-smart-schools-being-fortified-against-challenges-of-climate-change-ddm-director/#comments" title="Comment on VI's Smart Schools being fortified against challenges of Climate Change- DDM Director">4 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/jvd-electricity-woes-to-soon-end-following-arrival-of-undersea-cable-hon-turnbull">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_j_Jvd1.JPG" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/jvd-electricity-woes-to-soon-end-following-arrival-of-undersea-cable-hon-turnbull">
+                  <div class="meta">
+                    <span>
+                      January 24th, 2024                     </span>                    
+                  </div>
+                  <span>JvD electricity woes to soon end following arrival of undersea cable- Hon Turnbull</span>
+                </a>
+              </h1>
+              <p>
+                GREAT HARBOUR, Jost van Dyke, VI – With an undersea electricity cable having arrived on the island, according to Second District Representative Hon Melvin M. Turnbull, the people of Jost van Dyke should soon see the return of stable electricity.                <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/jvd-electricity-woes-to-soon-end-following-arrival-of-undersea-cable-hon-turnbull">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/1">News</a> | <a href="https://www.virginislandsnewsonline.com/en/news/jvd-electricity-woes-to-soon-end-following-arrival-of-undersea-cable-hon-turnbull/#comments" title="Comment on JvD electricity woes to soon end following arrival of undersea cable- Hon Turnbull">9 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/4-arrested-in-relation-to-armed-robbery-on-vg-granted-station-bail">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_r_RVIPF-FB_06.jpg" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/4-arrested-in-relation-to-armed-robbery-on-vg-granted-station-bail">
+                  <div class="meta">
+                    <span>
+                      January 24th, 2024                     </span>                    
+                  </div>
+                  <span>4 arrested in relation to armed robbery on VG; Granted station bail</span>
+                </a>
+              </h1>
+              <p>
+                VALLEY, Virgin Gorda, VI- Four persons, including a 17-year-old male, have been charged in relation to an armed robbery on Virgin Gorda.                <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/4-arrested-in-relation-to-armed-robbery-on-vg-granted-station-bail">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/3">Crime</a>, <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/1">News</a> | <a href="https://www.virginislandsnewsonline.com/en/news/4-arrested-in-relation-to-armed-robbery-on-vg-granted-station-bail/#comments" title="Comment on 4 arrested in relation to armed robbery on VG; Granted station bail">17 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/yachts-run-aground-in-nail-bay-area">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_y_Yachts.jpg" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/yachts-run-aground-in-nail-bay-area">
+                  <div class="meta">
+                    <span>
+                      January 24th, 2024                     </span>                    
+                  </div>
+                  <span>Yachts run aground in Nail Bay area</span>
+                </a>
+              </h1>
+              <p>
+                NAIL BAY, Virgin Gorda, VI- At least two yachts were apparently swept off course and ended up running aground in the Nail Bay area of Virgin Gorda on Tuesday, January 23, 2024.                <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/yachts-run-aground-in-nail-bay-area">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/1">News</a> | <a href="https://www.virginislandsnewsonline.com/en/news/yachts-run-aground-in-nail-bay-area/#comments" title="Comment on Yachts run aground in Nail Bay area">3 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/the-flying-pig-takes-the-award-in-24th-latitude-18-halyard-challenge">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_u_unnamed_(1)_01.jpg" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/the-flying-pig-takes-the-award-in-24th-latitude-18-halyard-challenge">
+                  <div class="meta">
+                    <span>
+                      January 23rd, 2024                     </span>                    
+                  </div>
+                  <span>‘The Flying Pig’ takes the award in 24th Latitude 18 Halyard Challenge</span>
+                </a>
+              </h1>
+              <p>
+                ROAD HARBOUR, Tortola, VI - The 2024 racing calendar kicked off on January 20, 2024, with the Latitude 18 Halyard Challenge as the windy conditions of the past week eased off for the four trimarans who took to the racecourse to battle it out for the first honors of the year.                <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/the-flying-pig-takes-the-award-in-24th-latitude-18-halyard-challenge">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/1">News</a>, <a href="/en/news/filter-category/10">Sports</a> | <a href="https://www.virginislandsnewsonline.com/en/news/the-flying-pig-takes-the-award-in-24th-latitude-18-halyard-challenge/#comments" title="Comment on ‘The Flying Pig’ takes the award in 24th Latitude 18 Halyard Challenge">5 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/police-uncover-guns-weed-ammo-in-vg-stop-search">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_i_img_3423_01.jpg" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/police-uncover-guns-weed-ammo-in-vg-stop-search">
+                  <div class="meta">
+                    <span>
+                      January 23rd, 2024                     </span>                    
+                  </div>
+                  <span>Police uncover guns, weed & ammo in VG stop & search</span>
+                </a>
+              </h1>
+              <p>
+                SPANISH TOWN, Virgin Gorda, VI – Police in the Virgin Islands (VI) have reported that while conducting a stop and search operation on Virgin Gorda, Officers of the Royal Virgin Islands Police Force (RVIPF) stopped a vehicle containing three male occupants.                <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/police-uncover-guns-weed-ammo-in-vg-stop-search">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/3">Crime</a>, <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/1">News</a> | <a href="https://www.virginislandsnewsonline.com/en/news/police-uncover-guns-weed-ammo-in-vg-stop-search/#comments" title="Comment on Police uncover guns, weed & ammo in VG stop & search">31 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/dr-ronald-a-brunton-appointed-new-vice-president-of-academic-affairs-hlscc">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_p_PHOTO_1_OF_2_-_HLSCC_WELCOMES_DR._RONALD_BRUNTON_AS_NEW_VICE_PRESIDENT_OF_ACADEMIC_AFFAIRS.jpg" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/dr-ronald-a-brunton-appointed-new-vice-president-of-academic-affairs-hlscc">
+                  <div class="meta">
+                    <span>
+                      January 23rd, 2024                     </span>                    
+                  </div>
+                  <span>Dr Ronald A. Brunton appointed new Vice President of Academic Affairs @ HLSCC</span>
+                </a>
+              </h1>
+              <p>
+                PARAQUITA BAY, Tortola, VI – The H. Lavity Stoutt Community College (HLSCC) has announced the appointment of a new Vice President of Academic Affairs, Dr Ronald A. Brunton.                <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/dr-ronald-a-brunton-appointed-new-vice-president-of-academic-affairs-hlscc">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/5">Education</a>, <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/1">News</a> | <a href="https://www.virginislandsnewsonline.com/en/news/dr-ronald-a-brunton-appointed-new-vice-president-of-academic-affairs-hlscc/#comments" title="Comment on Dr Ronald A. Brunton appointed new Vice President of Academic Affairs @ HLSCC">15 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/vi-residents-urged-to-craft-action-plan-for-natural-disasters">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_8_800x_s_Screenshot_20231004-073203_01.jpg" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/vi-residents-urged-to-craft-action-plan-for-natural-disasters">
+                  <div class="meta">
+                    <span>
+                      January 23rd, 2024                     </span>                    
+                  </div>
+                  <span>VI residents urged to craft ‘action plan’ for natural disasters</span>
+                </a>
+              </h1>
+              <p>
+                ROAD TOWN, Tortola, VI– Residents of the Virgin Islands are being encouraged by the Director of Disaster Management, Jasen H. Penn, to create or revise their disaster plans as the 2024 year gets started.                <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/vi-residents-urged-to-craft-action-plan-for-natural-disasters">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/1">News</a> | <a href="https://www.virginislandsnewsonline.com/en/news/vi-residents-urged-to-craft-action-plan-for-natural-disasters/#comments" title="Comment on VI residents urged to craft ‘action plan’ for natural disasters">3 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/late-legislator-carvin-malone-to-be-honoured-special-sitting-of-hoa-on-jan-25-2024">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_c_Carvin_Tribute.jpg" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/late-legislator-carvin-malone-to-be-honoured-special-sitting-of-hoa-on-jan-25-2024">
+                  <div class="meta">
+                    <span>
+                      January 23rd, 2024                     </span>                    
+                  </div>
+                  <span>Late Legislator Carvin Malone to be honoured @ Special Sitting of HoA on Jan 25, 2024</span>
+                </a>
+              </h1>
+              <p>
+                ROAD TOWN, Tortola, VI- While the country, his immediate family, friends, the Virgin Islands Party (VIP) and US Virgin Islands (USVI) officials are still in shock over the sudden passing of former legislator, businessman, patriot, father, husband, uncle and servant Mr Carvin Malone, sitting legislators are set to honour his legacy.                <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/late-legislator-carvin-malone-to-be-honoured-special-sitting-of-hoa-on-jan-25-2024">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/2">Community</a>, <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/1">News</a> | <a href="https://www.virginislandsnewsonline.com/en/news/late-legislator-carvin-malone-to-be-honoured-special-sitting-of-hoa-on-jan-25-2024/#comments" title="Comment on Late Legislator Carvin Malone to be honoured @ Special Sitting of HoA on Jan 25, 2024">9 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/ex-premier-andrew-a-fahies-trial-delayed-yet-again">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_8_800x_1_158171272_10158316942822945_9202417780619044206_n_01.jpg" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/ex-premier-andrew-a-fahies-trial-delayed-yet-again">
+                  <div class="meta">
+                    <span>
+                      January 23rd, 2024                     </span>                    
+                  </div>
+                  <span>Ex-Premier Andrew A. Fahie’s trial delayed yet again</span>
+                </a>
+              </h1>
+              <p>
+                MIAMI, Florida, USA– The high-profile trial of former Virgin Islands' Premier Andrew A. Fahie has been delayed yet again and is now scheduled to begin on Monday, January 29, 2024.                <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/ex-premier-andrew-a-fahies-trial-delayed-yet-again">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/2">Community</a>, <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/1">News</a> | <a href="https://www.virginislandsnewsonline.com/en/news/ex-premier-andrew-a-fahies-trial-delayed-yet-again/#comments" title="Comment on Ex-Premier Andrew A. Fahie’s trial delayed yet again">26 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+  
+
+
+
+
+
+
+
+
+          <div class="post ">
+            <div class="post_left">
+              <a href="https://www.virginislandsnewsonline.com/en/news/unite-bvi-to-help-rebuild-asps-move-vi-full-steam-ahead">
+                                                <img src="https://www.virginislandsnewsonline.com/cache/images/230x140_u_Unite_BVI.jpg" />
+              </a>
+            </div>
+            <div class="post_right">
+              <h1>
+                <a class="title" href="https://www.virginislandsnewsonline.com/en/news/unite-bvi-to-help-rebuild-asps-move-vi-full-steam-ahead">
+                  <div class="meta">
+                    <span>
+                      January 22nd, 2024                     </span>                    
+                  </div>
+                  <span>Unite BVI to help rebuild ASPS, move VI full S.T.E.A.M. ahead!</span>
+                </a>
+              </h1>
+              <p>
+                ROAD TOWN, Tortola, VI- Unite BVI, which is part of the Sir Richard CN Branson’s Virgin Group, has committed to help rebuild the Althea Scatliffe Primary School and also help move the [British] Virgin Islands education system full S.T.E.A.M. ahead.                <div>
+                  <a class="more" href="https://www.virginislandsnewsonline.com/en/news/unite-bvi-to-help-rebuild-asps-move-vi-full-steam-ahead">more »</a>
+                                    <span class="meta2">
+                    | <a href="/en/news/filter-category/5">Education</a>, <a href="/en/news/filter-category/6">Finance/Business</a>, <a href="/en/news/filter-category/40">Local</a>, <a href="/en/news/filter-category/1">News</a> | <a href="https://www.virginislandsnewsonline.com/en/news/unite-bvi-to-help-rebuild-asps-move-vi-full-steam-ahead/#comments" title="Comment on Unite BVI to help rebuild ASPS, move VI full S.T.E.A.M. ahead!">14 Comments »</a>
+                  </span>                                    
+                </div>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  
+       
+          
+    
+          <div id="pagenav">
+            <a class="more" href="/en/news/">View all news</a>
+          </div>
+  
+                <a class="ad" href="https://www.cbnvirginislands.com/" target="_blank" ><img src="/ads/cbb_2023-10-16.jpg" width="700"  /></a>
+        <a class="ad" href="https://www.virginislandsnewsonline.com/en/register" target="_blank" ><img src="/ads/email_alerts11.gif"   /></a>
+             
+        </div>
+        
+        <div id="content_right">
+          
+        <div class="ad" style="width:240px">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- VINO HP Sidebar 2 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9501660195890936"
+     data-ad-slot="8863047801"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>    <a class="ad" href="/ads/tantafina.jpg" target="_blank" ><img src="/ads/tantafina.jpg" width="240"  /></a>
+        <a class="ad" href="/ads/piratebigh_2023-10-21.jpg" target="_blank" ><img src="/ads/piratebigh_2023-10-21.jpg" width="240"  /></a>
+        <a class="ad" href="https://bviaa.bamboohr.com/careers/27" target="_blank" ><img src="/ads/bviaa_2024-01-29a.jpg" width="240"  /></a>
+        <a class="ad" href="https://bviaa.bamboohr.com/careers/28" target="_blank" ><img src="/ads/bviaa_2024-01-29b.jpg" width="240"  /></a>
+        <a class="ad" href="/ads/gardencafe4_side.gif" target="_blank" ><img src="/ads/gardencafe4_side.gif" width="240"  /></a>
+        <a class="ad" href="https://www.vinhi.vg/wp-content/uploads/2024/01/NHI-Tender-Notice-Audit.pdf" target="_blank" ><img src="/ads/nhi_2024-01-27.jpg" width="240"  /></a>
+        <a class="ad" href="https://www.vissb.vg/wp-content/uploads/2020/07/SSB-Tender-2.pdf" target="_blank" ><img src="/ads/ssb_2024-01-27.jpg" width="240"  /></a>
+        <a class="ad" href="/ads/bviecs_2023-01-19.pdf" target="_blank" ><img src="/ads/bviecs_2023-01-19.jpg" width="240"  /></a>
+        <a class="ad" href="/ads/bviec_2024-01-26.pdf" target="_blank" ><img src="/ads/bviec_2024-01-26.jpg" width="240"  /></a>
+        <a class="ad" href="/ads/bviaa_2024-01-05.pdf" target="_blank" ><img src="/ads/bviaa_2024-01-05.jpg" width="240"  /></a>
+        <a class="ad" href="/ads/marinacaylobster.gif" target="_blank" ><img src="/ads/marinacaylobster.gif" width="240"  /></a>
+        <a class="ad" href="/ads/NY_GRAPHIC.png" target="_blank" ><img src="/ads/NY_GRAPHIC.png" width="240"  /></a>
+        <a class="ad" href="/ads/biblestudy2.jpg" target="_blank" ><img src="/ads/biblestudy2.jpg" width="240"  /></a>
+        <a class="ad" href="/ads/apprecdinner.jpg" target="_blank" ><img src="/ads/apprecdinner.jpg" width="240"  /></a>
+        <a class="ad" href="https://bviports.org/ferry" target="_blank" ><img src="/ads/bvipa_2023-12-19.gif" width="240"  /></a>
+        <a class="ad" href="/ads/icis.pdf" target="_blank" ><img src="/ads/icis.jpg" width="240"  /></a>
+        <a class="ad" href="/ads/huntum5.gif" target="_blank" ><img src="/ads/huntum5.gif" width="240"  /></a>
+        <a class="ad" href="/ads/sundayworship.jpg" target="_blank" ><img src="/ads/sundayworship.jpg" width="240"  /></a>
+        <a class="ad" href="/ads/kevinwillock2.jpg" target="_blank" ><img src="/ads/kevinwillock2.jpg" width="240"  /></a>
+        <a class="ad" href="/ads/WE_ARE_HIRING!.pdf" target="_blank" ><img src="/ads/virgin_med_spa.gif" width="240"  /></a>
+        <a class="ad" href="/ads/annjel_notary.jpg" target="_blank" ><img src="/ads/annjel_notary_small.jpg" width="240"  /></a>
+      <div class="panel side">
+    <h1>Weather</h1>
+    <div class="weather">
+        <div id="wx_module_5880">
+          <a href="https://www.weather.com/weather/local/VIXX0001">Road Town Weather Forecast, British Virgin Islands</a>
+        </div>
+        
+        <script type="text/javascript">
+        
+           /* Locations can be edited manually by updating 'wx_locID' below.  Please also update */
+           /* the location name and link in the above div (wx_module) to reflect any changes made. */
+           var wx_locID = 'VIXX0001';
+        
+           /* If you are editing locations manually and are adding multiple modules to one page, each */
+           /* module must have a unique div id.  Please append a unique # to the div above, as well */
+           /* as the one referenced just below.  If you use the builder to create individual modules  */
+           /* you will not need to edit these parameters. */
+           var wx_targetDiv = 'wx_module_5880';
+        
+           /* Please do not change the configuration value [wx_config] manually - your module */
+           /* will no longer function if you do.  If at any time you wish to modify this */
+           /* configuration please use the graphical configuration tool found at */
+           /* https://registration.weather.com/ursa/wow/step2 */
+           var wx_config='SZ=180x150*WX=FHW*LNK=SSNL*UNT=F*BGC=ffffff*MAP=carib|null*DN=virginislandsnewsonline.com*TIER=0*PID=1325098045*MD5=56a3a6e78f307e53ff83cf35c9a06c7c';
+        
+           document.write('<scr'+'ipt src="'+document.location.protocol+'//wow.weather.com/weather/wow/module/'+wx_locID+'?config='+wx_config+'&proto='+document.location.protocol+'&target='+wx_targetDiv+'"></scr'+'ipt>');  
+        </script>
+        <br />
+    </div>
+  </div>
+                 <div class="panel side">
+            <h1>Follow Us On</h1>
+            <div class="followuson">
+              <a href="http://www.facebook.com/pages/Virgin-Islands-News-Online/180445958712879" target="_blank" alt="Facebook"><img src="https://www.virginislandsnewsonline.com/assets/img/icon_facebook.jpg" /></a>
+              <a href="http://www.twitter.com/vinonumber1" target="_blank" alt="Twitter"><img src="https://www.virginislandsnewsonline.com/assets/img/icon_x.png" /></a>
+              <!--<a href="#" alt="Myspace"><img src="/assets/img/icon_myspace.jpg" /></a>-->
+              <a href="https://www.virginislandsnewsonline.com/feed" alt="RSS"><img src="https://www.virginislandsnewsonline.com/assets/img/icon_rss.jpg" /></a>
+            </div>
+          </div><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- VINO HP Sidebar -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-9501660195890936"
+     data-ad-slot="1076449400"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>      <div class="panel side">
+        <h1>Local News</h1>
+          <div class="relatedposts">
+            <ul>
+                  <li>                
+                <small>January 22nd, 2024</small>
+                <a href="/en/news/carvin-malone-to-be-honoured-posthumously-by-league-of-british-virgin-islanders">Carvin Malone to be honoured posthumously by League of British Virgin Islanders</a>
+              </li>    
+
+                  <li>                
+                <small>January 22nd, 2024</small>
+                <a href="/en/news/late-kenroy-chinnery-wanted-access-to-medical-marijuana-for-his-seizures-dr-wheatley">Late Kenroy Chinnery wanted access to medical marijuana for his seizures– Dr Wheatley</a>
+              </li>    
+
+                  <li>                
+                <small>January 22nd, 2024</small>
+                <a href="/en/news/ot-minister-hon-david-h-rutley-to-visit-territory">OT Minister Hon David H. Rutley to visit Territory</a>
+              </li>    
+
+                  <li>                
+                <small>January 22nd, 2024</small>
+                <a href="/en/news/premier-congratulates-rosewood-little-dix-bay-resort-on-60th-anniversary">Premier congratulates Rosewood Little Dix Bay Resort on 60th Anniversary</a>
+              </li>    
+
+                  <li>                
+                <small>January 22nd, 2024</small>
+                <a href="/en/news/jvd-to-get-public-library">JvD to get public library</a>
+              </li>    
+
+                  <li>                
+                <small>January 22nd, 2024</small>
+                <a href="/en/news/unprecedented-success-record-breaking-cruise-arrivals">Unprecedented Success: Record-Breaking Cruise Arrivals</a>
+              </li>    
+
+                  <li>                
+                <small>January 21st, 2024</small>
+                <a href="/en/news/govt-accepting-bids-for-2024-sales-of-derelict-vehicles-vessels">Gov't accepting bids for 2024 Sales of Derelict Vehicles & Vessels</a>
+              </li>    
+
+                  <li>                
+                <small>January 21st, 2024</small>
+                <a href="/en/news/beloved-educator-mother-grandmother-mrs-ruby-a-smith-newberry-has-died">Beloved educator, mother, grandmother Mrs Ruby A. Smith-Newberry has died</a>
+              </li>    
+
+                  <li>                
+                <small>January 21st, 2024</small>
+                <a href="/en/news/rhonda-r-victor-pinnock-crowned-mrs-bvi-2024-25">Rhonda R. Victor-Pinnock crowned Mrs BVI 2024/25</a>
+              </li>    
+
+                  <li>                
+                <small>January 21st, 2024</small>
+                <a href="/en/news/hlscc-to-establish-campus-on-jvd-hon-sharie-b-de-castro">HLSCC to establish campus on JvD- Hon Sharie B. de Castro</a>
+              </li>    
+
+                
+            </ul>
+          </div>
+        </div> <div class="panel side">
+<h1>Recent Comments</h1>
+  <div class="recentcomments">
+    <li id="recent-comments-3" class="widget widget_recent_comments">
+      <ul id="recentcomments">
+<li class='recentcomments'>Forbidden Truth on <a href='https://www.virginislandsnewsonline.com/en/news/draft-immigration-policy-proposes-10-yrs-for-residency-20-yrs-for-belongership-eligibility#comments'>Draft Immigration policy proposes 10 yrs for Residency & 20 yrs for Belongership eligibility</a></li><li class='recentcomments'>Native Tongue on <a href='https://www.virginislandsnewsonline.com/en/news/draft-immigration-policy-proposes-10-yrs-for-residency-20-yrs-for-belongership-eligibility#comments'>Draft Immigration policy proposes 10 yrs for Residency & 20 yrs for Belongership eligibility</a></li><li class='recentcomments'><a href="https://google.com/">google</a> on <a href='https://www.virginislandsnewsonline.com/en/news/floods-storms-very-human-responses#comments'>Floods, storms, & very human responses</a></li><li class='recentcomments'>Besides Me. on <a href='https://www.virginislandsnewsonline.com/en/news/draft-immigration-policy-proposes-10-yrs-for-residency-20-yrs-for-belongership-eligibility#comments'>Draft Immigration policy proposes 10 yrs for Residency & 20 yrs for Belongership eligibility</a></li><li class='recentcomments'>lodger on <a href='https://www.virginislandsnewsonline.com/en/news/hon-fraser-objects-to-hon-de-castro-bringing-new-statement-to-continuation-of-hoa#comments'>Hon Fraser objects to Hon de Castro bringing new statement to continuation of HoA</a></li>  
+      </ul>
+    </li>       
+  </div>
+</div>
+    <a class="ad" href="/ads/AMPS_large.jpg" target="_blank" ><img src="/ads/AMPS_large.jpg" width="240"  /></a>
+     
+          
+        </div>
+        <div class="clear"></div> 
+        
+    </div>
+
+    </div>
+
+    <div id="footer">
+    
+      <div class="wrapper">
+      
+        <div id="footer_left">
+          <img src="https://www.virginislandsnewsonline.com/assets/img/flag_large.jpg" />
+        </div>
+      
+        <div id="footer_middle">
+          <a href="https://www.virginislandsnewsonline.com/en">Home</a> |
+          <a href="https://www.virginislandsnewsonline.com/en/news">News</a> |
+          <a href="https://www.virginislandsnewsonline.com/en/local-info/events">Events</a> |
+          <a href="https://www.virginislandsnewsonline.com/en/local-info/cruise-ship-schedule">Cruise Ship Schedule</a> |
+          <a href="https://www.virginislandsnewsonline.com/en/about-us/classified-ads">Classified Ads</a>
+        </div>
+        <div id="footer_right">
+          &copy; 2012 Advance Marketing & Professional Services<br />
+          Designed & developed by <a href="http://www.back2flash.com">Back2Flash.com</a>
+        </div> 
+        
+        <div class="clear"></div>      
+          
+      </div>
+    
+    </div>
+    
+    <div id="legal_wrapper">
+      <div id="legal">
+        <p>
+          This online news site is the sole property of and is operated by Advance Marketing and Professional Services dba Virgin Islands News Online (VINO) in the Virgin Islands. The content, which includes all articles, photographs, advertisements, bloggs and graphic images, are copyrighted by Virgin Islands News Online and/or the original copyright holder.
+        </p>
+        <p>
+          It is therefore illegal to use, reproduce, rewrite, amend or plagiarise any items found on this online news site without the expressed permission of the Board of Directors or Management of VINO. Failure to comply could lead to legal actions.
+        </p>
+        <p>
+          © 2012 / All Rights Reserved.
+        </p>    
+      </div>
+    </div>
+    
+    <div class="clear"></div>
+
+    <script type="text/javascript">
+    
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-5263047-7']);
+      _gaq.push(['_trackPageview']);
+    
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+      
+      
+      
+      // Old code UA-12852886-1
+    
+    </script>
+
+    
+  </body>
+  
+</html><!-- cached file -->
